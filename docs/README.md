@@ -45,3 +45,10 @@ npx playwright show-report
 
 - `docs/strategy.md` – Strategie en aanpak
 
+## Additionele informatie
+- Pipeline testrun failure door browsercontext 
+testen runnen wel lokaal
+HTML report ook lokaal aanwezig met command
+- Interceptor voor add-to-cart krijgt niet het juiste path
+- Paginatie test gebruikt hierdoor een nieuwe describe blok
+
