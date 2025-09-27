@@ -20,6 +20,8 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
+
+      
     - uses: actions/checkout@v4
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
@@ -27,4 +29,34 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
+    - run: npx playwright install --with-deps
     - run: npm run test:ci
+
+  #   jobs:
+  # test:
+  #   runs-on: ubuntu-latest
+
+  #   steps:
+  #     - name: Checkout code
+  #       uses: actions/checkout@v3
+
+  #     - name: Setup Node.js
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         node-version: 18
+
+  #     - name: Install dependencies
+  #       run: npm ci
+
+  #     - name: Install Playwright browsers
+  #       run: npx playwright install --with-deps
+
+  #     - name: Run Playwright tests
+  #       run: npx playwright test --reporter=html
+
+  #     - name: Upload HTML report as artifact
+  #       if: always()
+  #       uses: actions/upload-artifact@v3
+  #       with:
+  #         name: playwright-html-report
+  #         path: playwright-report/
