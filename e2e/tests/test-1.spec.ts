@@ -28,7 +28,7 @@ test.describe("Assesment", () => {
     await page.close();
   });
 
-  test("Navigate to the homepage of bol.com", async () => {
+  test("Navigate to the homepage of bol.com", async ({page}) => {
     await page.waitForURL("https://www.bol.com");
     await expect(page).toHaveURL("https://www.bol.com");
   });
