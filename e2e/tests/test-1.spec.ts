@@ -16,7 +16,7 @@ test.describe("Assesment", () => {
   test.beforeAll(async ({ browser }) => {
     const context = await browser.newContext();
     page = await context.newPage();
-    // bolPage = new BolPage(page);
+    bolPage = new BolPage(page);
     // filterSortPage = new FilterSortPage(page);
     // pdpPage = new PdpPage(page);
     // interceptor = new InterceptorPage(page);
@@ -29,13 +29,12 @@ test.describe("Assesment", () => {
   });
 
   test("Navigate to the homepage of bol.com", async () => {
-    // await page.waitForURL("https://www.bol.com");
     await expect(page).toHaveURL("https://www.bol.com");
   });
 
-//   test("Accept cookie banner", async () => {
-//     await bolPage.acceptCookies();
-//   });
+  test("Accept cookie banner", async () => {
+    await bolPage.acceptCookies();
+  });
 
 //   test('Verify search input is visible and search for "lego"', async () => {
 //     await bolPage.expectSearchInputVisible();
