@@ -16,6 +16,7 @@ test.describe("Assesment", () => {
   test.beforeAll(async ({ browser }) => {
     const context = await browser.newContext();
     page = await context.newPage();
+    context.cookies();
     // bolPage = new BolPage(page);
     // filterSortPage = new FilterSortPage(page);
     // pdpPage = new PdpPage(page);
