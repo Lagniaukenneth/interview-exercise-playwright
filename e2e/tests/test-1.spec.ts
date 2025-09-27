@@ -74,8 +74,6 @@ test.describe("Assesment", () => {
     const prices = await filterSortPage.getAllProductPrices();
     expect(prices.length).toBeGreaterThanOrEqual(1);
     const getAllPriceSpans = filterSortPage.getAllPriceSpans();
-    console.log('result: ', await getAllPriceSpans.allTextContents());
-    // expect(getAllPriceSpans).toBeVisible();
   });
 
   test("Click on the first product, opens in new tab", async () => {

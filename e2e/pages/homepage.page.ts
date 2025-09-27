@@ -79,7 +79,6 @@ export class BolPage {
 
   async expectAtLeastOneProductTitleVisible() {
     const count = await this.productTitles.count();
-    console.log(`Product titles found: ${count}`);
 
     expect(count).toBeGreaterThan(0);
 
@@ -98,9 +97,6 @@ export class BolPage {
 
     const titleCount = await this.productTitles.count();
     const priceCount = await this.screenReaderPrices.count();
-
-    console.log(`Titles found: ${titleCount}`);
-    console.log(`Price spans found: ${priceCount}`);
   }
 
   async expectEachProductCardHasTitleAndPrice() {
@@ -120,14 +116,6 @@ export class BolPage {
       const hasTitle = (await title.count()) > 0;
       const hasPrice = (await price.count()) > 0;
 
-      if (!hasTitle || !hasPrice) {
-        console.log(
-          `ERROR in card ${
-            i + 1
-          }: Has title? ${hasTitle}, Has price? ${hasPrice}`
-        );
-      }
-
       expect(hasTitle).toBeTruthy();
       expect(hasPrice).toBeTruthy();
     }
@@ -142,8 +130,6 @@ export class BolPage {
     ]);
 
     await newPage.waitForLoadState();
-
-    console.log("Opened new tab with URL:", newPage.url());
 
     return newPage;
   }
