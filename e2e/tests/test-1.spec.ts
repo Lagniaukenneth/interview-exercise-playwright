@@ -32,7 +32,8 @@ test.describe("Assesment", () => {
     await expect(page).toHaveURL("https://www.bol.com");
   });
 
-  test("Accept cookie banner", async () => {
+  test("Accept cookie banner", async ({page}) => {
+    await page.goto("https://www.bol.com");
     bolPage = new BolPage(page);
     await bolPage.acceptCookies();
   });
