@@ -60,7 +60,7 @@ export class FilterSortPage {
     return this.priceSpans;
   }
 
-  private matchAllPricesByText(texts) {
+  private matchAllPricesByText(texts: string[]) {
     return texts.map((text) => {
       const extractTextFromSingleQuotes = /'([^']*)'/g;
       const match = [...text.matchAll(extractTextFromSingleQuotes)];
