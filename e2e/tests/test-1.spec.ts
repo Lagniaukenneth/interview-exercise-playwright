@@ -29,7 +29,7 @@ test.describe("Assesment", () => {
   });
 
   test("Navigate to the homepage of bol.com", async () => {
-    await expect(page).toHaveURL("https://www.bol.com/nl/nl/");
+    await expect(page).toHaveURL("https://www.bol.com");
   });
 
   test("Accept cookie banner", async () => {
