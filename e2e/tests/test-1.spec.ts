@@ -16,11 +16,11 @@ test.describe("Assesment", () => {
   test.beforeAll(async ({ browser }) => {
     const context = await browser.newContext();
     page = await context.newPage();
-    bolPage = new BolPage(page);
-    filterSortPage = new FilterSortPage(page);
-    pdpPage = new PdpPage(page);
-    interceptor = new InterceptorPage(page);
-    productlistPage = new ProductListPage(page);
+    // bolPage = new BolPage(page);
+    // filterSortPage = new FilterSortPage(page);
+    // pdpPage = new PdpPage(page);
+    // interceptor = new InterceptorPage(page);
+    // productlistPage = new ProductListPage(page);
     await page.goto("https://www.bol.com");
   });
 
