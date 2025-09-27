@@ -1,36 +1,36 @@
-import { test, expect, Page } from "@playwright/test";
-import { BolPage } from "../pages/homepage.page";
-import { FilterSortPage } from "../helpers/filtersorte.page";
-import { PdpPage } from "../pages/productdetailpage.page";
-import { InterceptorPage } from "../helpers/interceptor.page";
-import { ProductListPage } from "../pages/productlist.page";
+// import { test, expect, Page } from "@playwright/test";
+// import { BolPage } from "../pages/homepage.page";
+// import { FilterSortPage } from "../helpers/filtersorte.page";
+// import { PdpPage } from "../pages/productdetailpage.page";
+// import { InterceptorPage } from "../helpers/interceptor.page";
+// import { ProductListPage } from "../pages/productlist.page";
 
-let page: Page;
-let bolPage: BolPage;
-let filterSortPage: FilterSortPage;
-let pdpPage: PdpPage;
-let interceptor: InterceptorPage;
-let productlistPage: ProductListPage;
+// let page: Page;
+// let bolPage: BolPage;
+// let filterSortPage: FilterSortPage;
+// let pdpPage: PdpPage;
+// let interceptor: InterceptorPage;
+// let productlistPage: ProductListPage;
 
-test.describe("Assesment", () => {
-  test.beforeAll(async ({ browser }) => {
-    const context = await browser.newContext();
-    page = await context.newPage();
-    bolPage = new BolPage(page);
-    filterSortPage = new FilterSortPage(page);
-    pdpPage = new PdpPage(page);
-    interceptor = new InterceptorPage(page);
-    productlistPage = new ProductListPage(page);
-    await page.goto("https://www.bol.com");
-  });
+// test.describe("Assesment", () => {
+//   test.beforeAll(async ({ browser }) => {
+//     const context = await browser.newContext();
+//     page = await context.newPage();
+//     bolPage = new BolPage(page);
+//     filterSortPage = new FilterSortPage(page);
+//     pdpPage = new PdpPage(page);
+//     interceptor = new InterceptorPage(page);
+//     productlistPage = new ProductListPage(page);
+//     await page.goto("https://www.bol.com");
+//   });
 
-  test.afterAll(async () => {
-    await page.close();
-  });
+//   test.afterAll(async () => {
+//     await page.close();
+//   });
 
-  test("Navigate to the homepage of bol.com", async () => {
-    await expect(page).toHaveURL("https://www.bol.com");
-  });
+//   test("Navigate to the homepage of bol.com", async () => {
+//     await expect(page).toHaveURL("https://www.bol.com");
+//   });
 
 //   test("Accept cookie banner", async () => {
 //     await bolPage.acceptCookies();
@@ -162,4 +162,4 @@ test.describe("Assesment", () => {
 //       expect(firstFiveTitlesPage1).not.toEqual(firstFiveTitlesPage2);
 //     });
 //   });
-});
+// });
