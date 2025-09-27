@@ -1,0 +1,16 @@
+// import { test, expect } from '@playwright/test';
+// import { BolPage } from '../pages/bol.page';
+
+// test.describe('bol.com', () => {
+//   let bolPage: BolPage;
+
+//   test.beforeEach(async ({ page }) => {
+//     bolPage = new BolPage(page);
+//     await bolPage.goto();
+//   });
+
+//   test('should search for lego and add the first item to the cart', async () => {
+//     await bolPage.cookiesButton.click();
+//     await bolPage.searchProduct('lego');
+//   });
+// });
