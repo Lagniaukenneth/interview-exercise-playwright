@@ -16,7 +16,7 @@ test.describe("Assesment", () => {
   test.beforeAll(async ({ browser }) => {
     const context = await browser.newContext();
     page = await context.newPage();
-    bolPage = new BolPage(page);
+    // bolPage = new BolPage(page);
     // filterSortPage = new FilterSortPage(page);
     // pdpPage = new PdpPage(page);
     // interceptor = new InterceptorPage(page);
@@ -32,7 +32,8 @@ test.describe("Assesment", () => {
     await expect(page).toHaveURL("https://www.bol.com");
   });
 
-  test("Accept cookie banner", async () => {
+  test("Accept cookie banner", async ({page}) => {
+    bolPage = new BolPage(page);
     await bolPage.acceptCookies();
   });
 
