@@ -33,19 +33,20 @@ test.describe("Assesment", () => {
     await expect(page).toHaveURL("https://www.bol.com");
   });
 
-  test("Accept cookie banner", async ({page}) => {
-    await page.goto("https://www.bol.com");
-    bolPage = new BolPage(page);
-    await bolPage.acceptCookies();
-  });
+  // test("Accept cookie banner", async ({page}) => {
+  //   await page.goto("https://www.bol.com");
+  //   bolPage = new BolPage(page);
+  //   await bolPage.acceptCookies();
+  // });
 
-//   test('Verify search input is visible and search for "lego"', async () => {
-//     await bolPage.expectSearchInputVisible();
-//     await bolPage.searchProduct("lego");
-//     await bolPage.clickSearchButton();
-//     await expect(page).toHaveURL(/searchtext=lego/i);
-//     await page.screenshot({ path: "resultpage.png" });
-//   });
+  test('Verify search input is visible and search for "lego"', async ({page}) => {
+    bolPage = new BolPage(page);
+    await bolPage.expectSearchInputVisible();
+    await bolPage.searchProduct("lego");
+    await bolPage.clickSearchButton();
+    await expect(page).toHaveURL(/searchtext=lego/i);
+    await page.screenshot({ path: "resultpage.png" });
+  });
 
 //   test('Click on the "Speelgoed" filter', async () => {
 //     await filterSortPage.clickFilter();
