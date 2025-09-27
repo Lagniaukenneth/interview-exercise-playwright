@@ -1,0 +1,1073 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic:
+      - link "Ga naar zoeken" [ref=e4] [cursor=pointer]:
+        - /url: "#searchfor"
+      - link "Ga naar hoofdinhoud" [ref=e5] [cursor=pointer]:
+        - /url: "#mainContent"
+    - complementary "Onze voordelen" [ref=e6]:
+      - generic [ref=e7]:
+        - link "lekker winkelen zonder zorgen Gratis verzending vanaf 25,- Bezorging dezelfde dag, 's avonds of in het weekend* Gratis retourneren" [ref=e8] [cursor=pointer]:
+          - /url: /nl/nl/sf/winkelen-zonder-zorgen
+          - generic [ref=e9] [cursor=pointer]: lekker winkelen zonder zorgen
+          - list [ref=e10] [cursor=pointer]:
+            - listitem [ref=e11] [cursor=pointer]:
+              - generic [ref=e12] [cursor=pointer]:
+                - strong [ref=e13] [cursor=pointer]: Gratis
+                - text: verzending vanaf 25,-
+            - listitem [ref=e14] [cursor=pointer]:
+              - generic [ref=e15] [cursor=pointer]: Bezorging dezelfde dag, 's avonds of in het weekend*
+            - listitem [ref=e16] [cursor=pointer]:
+              - generic [ref=e17] [cursor=pointer]:
+                - strong [ref=e18] [cursor=pointer]: Gratis
+                - text: retourneren
+        - link "Select Ontdek nu de 4 voordelen" [ref=e19] [cursor=pointer]:
+          - /url: /nl/nl/select
+          - generic [ref=e20] [cursor=pointer]: Select
+          - generic [ref=e21] [cursor=pointer]: Ontdek nu de 4 voordelen
+    - generic [ref=e22]:
+      - link "Bol.com homepage" [ref=e24] [cursor=pointer]:
+        - /url: /nl/nl/
+        - img [ref=e25] [cursor=pointer]
+      - search "In onze winkel" [ref=e28]:
+        - generic [ref=e29]:
+          - textbox "Zoeken" [ref=e30]
+          - button "Zoeken" [ref=e31] [cursor=pointer]:
+            - img [ref=e33] [cursor=pointer]
+      - generic [ref=e36]:
+        - link "Inloggen" [ref=e38] [cursor=pointer]:
+          - /url: /nl/account/login.html
+          - generic [ref=e39] [cursor=pointer]: Inloggen
+        - link "Naar mijn verlanglijstjes" [ref=e41] [cursor=pointer]:
+          - /url: /nl/nl/lijstjes/overzicht-lijsten/
+          - img [ref=e43] [cursor=pointer]
+        - link "Winkelwagen met 0 artikelen" [ref=e46] [cursor=pointer]:
+          - /url: /nl/nl/basket/
+          - img [ref=e48] [cursor=pointer]
+    - generic [ref=e52]:
+      - navigation "Main" [ref=e53]:
+        - list [ref=e55]:
+          - listitem [ref=e56]:
+            - button "Categorieën" [ref=e57]:
+              - text: Categorieën
+              - img [ref=e59]
+          - listitem [ref=e61]:
+            - button "Cadeaus & Inspiratie" [ref=e62]:
+              - text: Cadeaus & Inspiratie
+              - img [ref=e64]
+          - listitem [ref=e66]:
+            - button "Aanbiedingen" [ref=e67]:
+              - text: Aanbiedingen
+              - img [ref=e69]
+      - list [ref=e71]:
+        - listitem [ref=e72]:
+          - link "Zakelijk" [ref=e73] [cursor=pointer]:
+            - /url: /nl/nl/sf/zakendoen-met-bolcom
+        - listitem [ref=e74]:
+          - link "Cadeaukaart" [ref=e75] [cursor=pointer]:
+            - /url: /nl/nl/l/cadeaukaarten/20639/
+        - listitem [ref=e76]:
+          - link "Bestelstatus" [ref=e77] [cursor=pointer]:
+            - /url: /nl/nl/rnwy/account/bestellingen/overzicht
+        - listitem [ref=e78]:
+          - link "Klantenservice" [ref=e79] [cursor=pointer]:
+            - /url: /nl/nl/m/klantenservice
+        - listitem [ref=e80]:
+          - button "Land Nederland Taal Nederlands" [ref=e81] [cursor=pointer]:
+            - navigation "Land Nederland" [ref=e82] [cursor=pointer]
+            - navigation "Taal Nederlands" [ref=e83] [cursor=pointer]: NL
+            - img [ref=e85] [cursor=pointer]
+  - main [ref=e87]:
+    - heading "Bol, de winkel van ons allemaal" [level=1] [ref=e88]
+    - generic [ref=e89]:
+      - 'link "bol 7-daagse: meer dan 150 deals" [ref=e94] [cursor=pointer]':
+        - /url: /nl/nl/cmp/bol7daagse-september/2075/
+        - 'img "bol 7-daagse: meer dan 150 deals" [ref=e96] [cursor=pointer]'
+      - generic [ref=e99]:
+        - link "Sla deze carousel over" [ref=e100] [cursor=pointer]:
+          - /url: "#«R15aar5»"
+        - generic [ref=e101]:
+          - button [ref=e102] [cursor=pointer]:
+            - img [ref=e104] [cursor=pointer]
+          - list [ref=e106]:
+            - listitem [ref=e107]:
+              - link [ref=e109] [cursor=pointer]:
+                - /url: https://www.bol.com/nl/nl/cmp/bol7daagse-september/2075/
+            - listitem [ref=e110]:
+              - link [ref=e112] [cursor=pointer]:
+                - /url: https://www.bol.com/nl/nl/cmp/bol7daagse-september/2075/
+            - listitem [ref=e113]:
+              - link [ref=e115] [cursor=pointer]:
+                - /url: https://www.bol.com/nl/nl/cmp/bol7daagse-september/2075/
+            - listitem [ref=e116]:
+              - link [ref=e118] [cursor=pointer]:
+                - /url: https://www.bol.com/nl/nl/cmp/bol7daagse-september/2075/
+            - listitem [ref=e119]:
+              - link [ref=e121] [cursor=pointer]:
+                - /url: https://www.bol.com/nl/nl/cmp/bol7daagse-september/2075/
+            - listitem [ref=e122]:
+              - link [ref=e124] [cursor=pointer]:
+                - /url: https://www.bol.com/nl/nl/cmp/bol7daagse-september/2075/
+      - generic [ref=e126]:
+        - link "Sla deze carousel over" [ref=e127] [cursor=pointer]:
+          - /url: "#«R1daar5»"
+        - generic [ref=e128]:
+          - button [ref=e129] [cursor=pointer]:
+            - img [ref=e131] [cursor=pointer]
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - link "2+1 gratis op Philips Hue" [ref=e136] [cursor=pointer]:
+                - /url: /nl/nl/ra/2-1-op-philips-hue/436290
+                - paragraph [ref=e139] [cursor=pointer]:
+                  - strong [ref=e140] [cursor=pointer]: 2+1 gratis
+                  - text: op Philips Hue
+            - listitem [ref=e143]:
+              - link "Tot 20% korting* op games *op de meest getoonde prijs" [ref=e145] [cursor=pointer]:
+                - /url: /nl/nl/ra/hoge-korting-op-games/449893
+                - paragraph [ref=e148] [cursor=pointer]:
+                  - strong [ref=e149] [cursor=pointer]: Tot 20% korting*
+                  - text: op games
+                - paragraph [ref=e152] [cursor=pointer]: "*op de meest getoonde prijs"
+            - listitem [ref=e153]:
+              - link "Korting* op parfum *op de meest getoonde prijs" [ref=e155] [cursor=pointer]:
+                - /url: /nl/nl/ra/korting-op-parfum/410118
+                - paragraph [ref=e158] [cursor=pointer]:
+                  - strong [ref=e159] [cursor=pointer]: Korting*
+                  - text: op parfum
+                - paragraph [ref=e162] [cursor=pointer]: "*op de meest getoonde prijs"
+            - listitem [ref=e163]:
+              - link "Tot 30% korting* op sneakers *op de meest getoonde prijs" [ref=e165] [cursor=pointer]:
+                - /url: /nl/nl/ra/tot-30-korting-op-sneakers/435192
+                - paragraph [ref=e168] [cursor=pointer]:
+                  - strong [ref=e169] [cursor=pointer]: Tot 30% korting*
+                  - text: op sneakers
+                - paragraph [ref=e172] [cursor=pointer]: "*op de meest getoonde prijs"
+      - generic [ref=e174]:
+        - heading "Populaire categorieën" [level=2] [ref=e176]:
+          - generic [ref=e177]:
+            - strong [ref=e178]: Populaire
+            - text: categorieën
+        - generic [ref=e179]:
+          - link "Sla deze carousel over" [ref=e180] [cursor=pointer]:
+            - /url: "#«Rhlaar5»"
+          - generic [ref=e181]:
+            - button [ref=e182] [cursor=pointer]:
+              - img [ref=e184] [cursor=pointer]
+            - list [ref=e186]:
+              - listitem [ref=e187]:
+                - link [ref=e188] [cursor=pointer]:
+                  - /url: /nl/nl/l/bouwsets/20001/
+                  - article [ref=e189] [cursor=pointer]:
+                    - paragraph [ref=e193] [cursor=pointer]: Bouwsets
+              - listitem [ref=e194]:
+                - link [ref=e195] [cursor=pointer]:
+                  - /url: /nl/nl/l/legpuzzels/10564/
+                  - article [ref=e196] [cursor=pointer]:
+                    - paragraph [ref=e200] [cursor=pointer]: Legpuzzels
+              - listitem [ref=e201]:
+                - link [ref=e202] [cursor=pointer]:
+                  - /url: /nl/nl/l/lampen/22119/
+                  - article [ref=e203] [cursor=pointer]:
+                    - paragraph [ref=e207] [cursor=pointer]: Lampen
+              - listitem [ref=e208]:
+                - link [ref=e209] [cursor=pointer]:
+                  - /url: /nl/nl/l/smartphones/4010/
+                  - article [ref=e210] [cursor=pointer]:
+                    - paragraph [ref=e214] [cursor=pointer]: Smartphones
+              - listitem [ref=e215]:
+                - link [ref=e216] [cursor=pointer]:
+                  - /url: /nl/nl/l/-/49707/
+                  - article [ref=e217] [cursor=pointer]:
+                    - paragraph [ref=e221] [cursor=pointer]: Spellen voor volwassenen
+              - listitem [ref=e222]:
+                - link [ref=e223] [cursor=pointer]:
+                  - /url: /nl/nl/l/-/64498/
+                  - article [ref=e224] [cursor=pointer]:
+                    - paragraph [ref=e228] [cursor=pointer]: Audio voor jou
+      - generic [ref=e230]:
+        - heading [level=3] [ref=e232]
+        - link [ref=e233] [cursor=pointer]:
+          - /url: "#«Rjdaar5»"
+          - text: Sla deze carousel over
+        - generic [ref=e234]:
+          - button [ref=e235] [cursor=pointer]:
+            - img [ref=e237] [cursor=pointer]
+          - list [ref=e239]:
+            - listitem [ref=e240]
+            - listitem [ref=e242]
+            - listitem [ref=e244]
+      - generic [ref=e247]:
+        - heading "Topdeals" [level=2] [ref=e249]:
+          - strong [ref=e251]: Topdeals
+        - generic [ref=e252]:
+          - link "Sla deze carousel over" [ref=e253] [cursor=pointer]:
+            - /url: "#«Rjtaar5»"
+          - generic [ref=e254]:
+            - button [ref=e255] [cursor=pointer]:
+              - img [ref=e257] [cursor=pointer]
+            - list [ref=e259]:
+              - listitem [ref=e260]:
+                - generic [ref=e262]:
+                  - link "Travelin' Thorning Heren - Halfhoge leren veterschoenen - Wol gevoerd - Cognac leer" [ref=e263] [cursor=pointer]:
+                    - /url: /nl/nl/p/travelin-trehuse-heren-halfhoge-leren-veterschoenen-wol-gevoerd-cognac-leer-maat-40/9300000157500941/
+                    - img "Travelin' Thorning Heren - Halfhoge leren veterschoenen - Wol gevoerd - Cognac leer" [ref=e265] [cursor=pointer]
+                  - generic [ref=e266]:
+                    - link "Travelin' Thorning Heren - Halfhoge leren veterschoenen - Wol gevoerd - Cognac leer" [ref=e267] [cursor=pointer]:
+                      - /url: /nl/nl/p/travelin-trehuse-heren-halfhoge-leren-veterschoenen-wol-gevoerd-cognac-leer-maat-40/9300000157500941/?promo=main_860_deals_for_you___product_0_9300000157500941
+                      - paragraph [ref=e268] [cursor=pointer]: Travelin' Thorning Heren - Halfhoge leren veterschoenen - Wol gevoerd - Cognac leer
+                    - generic [ref=e269]:
+                      - generic [ref=e270]:
+                        - generic [ref=e272]: "125"
+                        - generic [ref=e273]: ","
+                        - generic [ref=e274]: "97"
+                      - generic [ref=e276]: hoge korting
+                      - paragraph [ref=e277]:
+                        - generic [ref=e278]:
+                          - text: Meestal
+                          - generic [ref=e279]: 179,95
+                        - button "Meer informatie over referentieprijs" [ref=e280] [cursor=pointer]:
+                          - img [ref=e282] [cursor=pointer]
+                      - generic [ref=e284]: De adviesprijs is 179 euro en 95 cent.
+                  - button "Op je verlanglijstje" [ref=e285] [cursor=pointer]:
+                    - img [ref=e287] [cursor=pointer]
+              - listitem [ref=e289]:
+                - generic [ref=e291]:
+                  - link "FitFlop FitFlop F-Mode Leather Flatform Chelsea Boots GRIJS - Maat 37" [ref=e292] [cursor=pointer]:
+                    - /url: /nl/nl/p/fitflop-f-mode-leather-flatform-chelsea-boots-grijs-maat-37/9300000191767454/
+                    - img "FitFlop FitFlop F-Mode Leather Flatform Chelsea Boots GRIJS - Maat 37" [ref=e294] [cursor=pointer]
+                  - generic [ref=e295]:
+                    - link "FitFlop FitFlop F-Mode Leather Flatform Chelsea Boots GRIJS - Maat 37" [ref=e296] [cursor=pointer]:
+                      - /url: /nl/nl/p/fitflop-f-mode-leather-flatform-chelsea-boots-grijs-maat-37/9300000191767454/?promo=main_860_deals_for_you___product_1_9300000191767454
+                      - paragraph [ref=e297] [cursor=pointer]: FitFlop FitFlop F-Mode Leather Flatform Chelsea Boots GRIJS - Maat 37
+                    - generic [ref=e298]:
+                      - generic [ref=e299]:
+                        - generic [ref=e301]: "111"
+                        - generic [ref=e302]: ","
+                        - generic [ref=e303]: "-"
+                      - generic [ref=e305]: in prijs verlaagd
+                      - paragraph [ref=e306]:
+                        - generic [ref=e307]:
+                          - text: Meestal
+                          - generic [ref=e308]: 185,00
+                        - button "Meer informatie over referentieprijs" [ref=e309] [cursor=pointer]:
+                          - img [ref=e311] [cursor=pointer]
+                      - generic [ref=e313]: De adviesprijs is 185 euro.
+                  - button "Op je verlanglijstje" [ref=e314] [cursor=pointer]:
+                    - img [ref=e316] [cursor=pointer]
+              - listitem [ref=e318]:
+                - generic [ref=e320]:
+                  - link "Barkrukken - Wit - Zonder rugleuning - 30x30x72cm - Set van 2" [ref=e321] [cursor=pointer]:
+                    - /url: /nl/nl/p/bolt-edge-barkrukken-wit-zonder-rugleuning-30x30x72cm-set-van-2/9300000224538149/
+                    - img "Barkrukken - Wit - Zonder rugleuning - 30x30x72cm - Set van 2" [ref=e323] [cursor=pointer]
+                  - generic [ref=e324]:
+                    - link "Barkrukken - Wit - Zonder rugleuning - 30x30x72cm - Set van 2" [ref=e325] [cursor=pointer]:
+                      - /url: /nl/nl/p/bolt-edge-barkrukken-wit-zonder-rugleuning-30x30x72cm-set-van-2/9300000224538149/?promo=main_860_deals_for_you___product_2_9300000224538149
+                      - paragraph [ref=e326] [cursor=pointer]: Barkrukken - Wit - Zonder rugleuning - 30x30x72cm - Set van 2
+                    - generic [ref=e327]:
+                      - generic [ref=e328]:
+                        - generic [ref=e330]: "74"
+                        - generic [ref=e331]: ","
+                        - generic [ref=e332]: "99"
+                      - generic [ref=e334]: in prijs verlaagd
+                      - paragraph [ref=e335]:
+                        - generic [ref=e336]:
+                          - text: Meestal
+                          - generic [ref=e337]: 79,99
+                        - button "Meer informatie over referentieprijs" [ref=e338] [cursor=pointer]:
+                          - img [ref=e340] [cursor=pointer]
+                      - generic [ref=e342]: De adviesprijs is 79 euro en 99 cent.
+                  - button "Op je verlanglijstje" [ref=e343] [cursor=pointer]:
+                    - img [ref=e345] [cursor=pointer]
+              - listitem [ref=e347]:
+                - generic [ref=e349]:
+                  - link "New Balance W680 Dames Sportschoenen - BLACK" [ref=e350] [cursor=pointer]:
+                    - /url: /nl/nl/p/new-balance-w680-dames-sportschoenen-zwart-maat-37/9300000170949331/
+                    - img "New Balance W680 Dames Sportschoenen - BLACK" [ref=e352] [cursor=pointer]
+                  - generic [ref=e353]:
+                    - link "New Balance W680 Dames Sportschoenen - BLACK" [ref=e354] [cursor=pointer]:
+                      - /url: /nl/nl/p/new-balance-w680-dames-sportschoenen-zwart-maat-37/9300000170949331/?promo=main_860_deals_for_you___product_3_9300000170949331
+                      - paragraph [ref=e355] [cursor=pointer]: New Balance W680 Dames Sportschoenen - BLACK
+                    - generic [ref=e356]:
+                      - generic [ref=e357]:
+                        - generic [ref=e359]: "65"
+                        - generic [ref=e360]: ","
+                        - generic [ref=e361]: "24"
+                      - generic [ref=e363]: hoge korting
+                      - paragraph [ref=e364]:
+                        - generic [ref=e365]:
+                          - text: Meestal
+                          - generic [ref=e366]: 115,00
+                        - button "Meer informatie over referentieprijs" [ref=e367] [cursor=pointer]:
+                          - img [ref=e369] [cursor=pointer]
+                      - generic [ref=e371]: De adviesprijs is 115 euro.
+                  - button "Op je verlanglijstje" [ref=e372] [cursor=pointer]:
+                    - img [ref=e374] [cursor=pointer]
+              - listitem [ref=e376]:
+                - generic [ref=e378]:
+                  - link "Pet Perfect Orthopedische Donut Hondenmand 120 cm – Hondenkussen – Luxe Hondenbed – Wasbaar – extra gevuld - Beige" [ref=e379] [cursor=pointer]:
+                    - /url: /nl/nl/p/pet-perfect-orthopedische-donut-hondenmand-120-cm-hondenkussen-luxe-hondenbed-wasbaar-extra-gevuld-beige/9300000223853218/
+                    - img "Pet Perfect Orthopedische Donut Hondenmand 120 cm – Hondenkussen – Luxe Hondenbed – Wasbaar – extra gevuld - Beige" [ref=e381] [cursor=pointer]
+                  - generic [ref=e382]:
+                    - link "Pet Perfect Orthopedische Donut Hondenmand 120 cm – Hondenkussen – Luxe Hondenbed – Wasbaar – extra gevuld - Beige" [ref=e383] [cursor=pointer]:
+                      - /url: /nl/nl/p/pet-perfect-orthopedische-donut-hondenmand-120-cm-hondenkussen-luxe-hondenbed-wasbaar-extra-gevuld-beige/9300000223853218/?promo=main_860_deals_for_you___product_4_9300000223853218
+                      - paragraph [ref=e384] [cursor=pointer]: Pet Perfect Orthopedische Donut Hondenmand 120 cm – Hondenkussen – Luxe Hondenbed – Wasbaar – extra gevuld - Beige
+                    - generic [ref=e385]:
+                      - generic [ref=e386]:
+                        - generic [ref=e388]: "129"
+                        - generic [ref=e389]: ","
+                        - generic [ref=e390]: "95"
+                      - generic [ref=e392]: korting
+                      - paragraph [ref=e393]:
+                        - generic [ref=e394]:
+                          - text: Meestal
+                          - generic [ref=e395]: 149,95
+                        - button "Meer informatie over referentieprijs" [ref=e396] [cursor=pointer]:
+                          - img [ref=e398] [cursor=pointer]
+                      - generic [ref=e400]: De adviesprijs is 149 euro en 95 cent.
+                  - button "Op je verlanglijstje" [ref=e401] [cursor=pointer]:
+                    - img [ref=e403] [cursor=pointer]
+              - listitem [ref=e405]:
+                - generic [ref=e407]:
+                  - link "YESTA Venice Vest - Dark Grey/Melange - maat X-0(44)" [ref=e408] [cursor=pointer]:
+                    - /url: /nl/nl/p/yesta-venice-vest-dark-grey-melange-maat-x-0/9300000120479895/
+                    - img "YESTA Venice Vest - Dark Grey/Melange - maat X-0(44)" [ref=e410] [cursor=pointer]
+                  - generic [ref=e411]:
+                    - link "YESTA Venice Vest - Dark Grey/Melange - maat X-0(44)" [ref=e412] [cursor=pointer]:
+                      - /url: /nl/nl/p/yesta-venice-vest-dark-grey-melange-maat-x-0/9300000120479895/?promo=main_860_deals_for_you___product_5_9300000120479895
+                      - paragraph [ref=e413] [cursor=pointer]: YESTA Venice Vest - Dark Grey/Melange - maat X-0(44)
+                    - generic [ref=e414]:
+                      - generic [ref=e415]:
+                        - generic [ref=e417]: "32"
+                        - generic [ref=e418]: ","
+                        - generic [ref=e419]: "06"
+                      - generic [ref=e421]: in prijs verlaagd
+                      - paragraph [ref=e422]:
+                        - generic [ref=e423]:
+                          - text: Meestal
+                          - generic [ref=e424]: 74,95
+                        - button "Meer informatie over referentieprijs" [ref=e425] [cursor=pointer]:
+                          - img [ref=e427] [cursor=pointer]
+                      - generic [ref=e429]: De adviesprijs is 74 euro en 95 cent.
+                  - button "Op je verlanglijstje" [ref=e430] [cursor=pointer]:
+                    - img [ref=e432] [cursor=pointer]
+      - generic [ref=e435]:
+        - heading "Bekijk onze Topkeuzes" [level=2] [ref=e437]:
+          - generic [ref=e438]:
+            - text: Bekijk onze
+            - strong [ref=e439]: Topkeuzes
+        - generic [ref=e440]:
+          - link "Sla deze carousel over" [ref=e441] [cursor=pointer]:
+            - /url: "#«Rkdaar5»"
+          - generic [ref=e442]:
+            - button [ref=e443] [cursor=pointer]:
+              - img [ref=e445] [cursor=pointer]
+            - list [ref=e447]:
+              - listitem [ref=e448]:
+                - generic [ref=e450]:
+                  - link "Wasgij Original - Disney - Mickey's Feestje! - 1000 stukjes - Legpuzzel - Puzzel" [ref=e451] [cursor=pointer]:
+                    - /url: /nl/nl/p/wasgij-original-disney-mickeys-feestje/9300000155515421/
+                    - img "Wasgij Original - Disney - Mickey's Feestje! - 1000 stukjes - Legpuzzel - Puzzel" [ref=e453] [cursor=pointer]
+                  - generic [ref=e454]:
+                    - link "Wasgij Original - Disney - Mickey's Feestje! - 1000 stukjes - Legpuzzel - Puzzel" [ref=e455] [cursor=pointer]:
+                      - /url: /nl/nl/p/wasgij-original-disney-mickeys-feestje/9300000155515421/?promo=main_862_top_picks_for_you___product_0_9300000155515421
+                      - paragraph [ref=e456] [cursor=pointer]: Wasgij Original - Disney - Mickey's Feestje! - 1000 stukjes - Legpuzzel - Puzzel
+                    - generic [ref=e458]:
+                      - generic [ref=e460]: "18"
+                      - generic [ref=e461]: ","
+                      - generic [ref=e462]: "99"
+                  - button "Op je verlanglijstje" [ref=e463] [cursor=pointer]:
+                    - img [ref=e465] [cursor=pointer]
+              - listitem [ref=e467]:
+                - generic [ref=e469]:
+                  - link "Pampers Harmonie Aqua Billendoekjes - 24 Verpakkingen = 1152 Babydoekjes" [ref=e470] [cursor=pointer]:
+                    - /url: /nl/nl/p/pampers-harmonie-aqua-babydoekjes-24-verpakkingen-1152-babydoekjes/9300000141281010/
+                    - img "Pampers Harmonie Aqua Billendoekjes - 24 Verpakkingen = 1152 Babydoekjes" [ref=e472] [cursor=pointer]
+                  - generic [ref=e473]:
+                    - link "Pampers Harmonie Aqua Billendoekjes - 24 Verpakkingen = 1152 Babydoekjes" [ref=e474] [cursor=pointer]:
+                      - /url: /nl/nl/p/pampers-harmonie-aqua-babydoekjes-24-verpakkingen-1152-babydoekjes/9300000141281010/?promo=main_862_top_picks_for_you___product_1_9300000141281010
+                      - paragraph [ref=e475] [cursor=pointer]: Pampers Harmonie Aqua Billendoekjes - 24 Verpakkingen = 1152 Babydoekjes
+                    - generic [ref=e476]:
+                      - generic [ref=e477]:
+                        - generic [ref=e479]: "30"
+                        - generic [ref=e480]: ","
+                        - generic [ref=e481]: "99"
+                      - generic [ref=e483]: korting
+                      - paragraph [ref=e484]:
+                        - generic [ref=e485]:
+                          - text: Meestal
+                          - generic [ref=e486]: 43,67
+                        - button "Meer informatie over referentieprijs" [ref=e487] [cursor=pointer]:
+                          - img [ref=e489] [cursor=pointer]
+                      - generic [ref=e491]: De adviesprijs is 43 euro en 67 cent.
+                  - button "Op je verlanglijstje" [ref=e492] [cursor=pointer]:
+                    - img [ref=e494] [cursor=pointer]
+              - listitem [ref=e496]:
+                - generic [ref=e498]:
+                  - link "Felix Elke Dag Feest Mix selectie in Gelei - Kattenvoer Natvoer - Zalm Tonijn Rund & Kip - 120 x 85 g" [ref=e499] [cursor=pointer]:
+                    - /url: /nl/nl/p/felix-elke-dag-feest-kattenvoer-natvoer-mix-selectie-in-gelei-120-x-85g/9300000111830490/
+                    - img "Felix Elke Dag Feest Mix selectie in Gelei - Kattenvoer Natvoer - Zalm Tonijn Rund & Kip - 120 x 85 g" [ref=e501] [cursor=pointer]
+                  - generic [ref=e502]:
+                    - link "Felix Elke Dag Feest Mix selectie in Gelei - Kattenvoer Natvoer - Zalm Tonijn Rund & Kip - 120 x 85 g" [ref=e503] [cursor=pointer]:
+                      - /url: /nl/nl/p/felix-elke-dag-feest-kattenvoer-natvoer-mix-selectie-in-gelei-120-x-85g/9300000111830490/?promo=main_862_top_picks_for_you___product_2_9300000111830490
+                      - paragraph [ref=e504] [cursor=pointer]: Felix Elke Dag Feest Mix selectie in Gelei - Kattenvoer Natvoer - Zalm Tonijn Rund & Kip - 120 x 85 g
+                    - generic [ref=e505]:
+                      - generic [ref=e506]:
+                        - generic [ref=e508]: "38"
+                        - generic [ref=e509]: ","
+                        - generic [ref=e510]: "01"
+                      - generic [ref=e512]: korting
+                      - paragraph [ref=e513]:
+                        - generic [ref=e514]:
+                          - text: Meestal
+                          - generic [ref=e515]: 49,00
+                        - button "Meer informatie over referentieprijs" [ref=e516] [cursor=pointer]:
+                          - img [ref=e518] [cursor=pointer]
+                      - generic [ref=e520]: De adviesprijs is 49 euro.
+                  - button "Op je verlanglijstje" [ref=e521] [cursor=pointer]:
+                    - img [ref=e523] [cursor=pointer]
+              - listitem [ref=e525]:
+                - generic [ref=e527]:
+                  - link "Pampers Premium Protection - Maat 4 (9kg-14kg) - 174 Luiers - Maandbox" [ref=e528] [cursor=pointer]:
+                    - /url: /nl/nl/p/pampers-premium-protection-maat-4-174-luiers-maandbox/9300000138922868/
+                    - img "Pampers Premium Protection - Maat 4 (9kg-14kg) - 174 Luiers - Maandbox" [ref=e530] [cursor=pointer]
+                  - generic [ref=e531]:
+                    - link "Pampers Premium Protection - Maat 4 (9kg-14kg) - 174 Luiers - Maandbox" [ref=e532] [cursor=pointer]:
+                      - /url: /nl/nl/p/pampers-premium-protection-maat-4-174-luiers-maandbox/9300000138922868/?promo=main_862_top_picks_for_you___product_3_9300000138922868
+                      - paragraph [ref=e533] [cursor=pointer]: Pampers Premium Protection - Maat 4 (9kg-14kg) - 174 Luiers - Maandbox
+                    - generic [ref=e534]:
+                      - generic [ref=e535]:
+                        - generic [ref=e537]: "48"
+                        - generic [ref=e538]: ","
+                        - generic [ref=e539]: "49"
+                      - generic [ref=e541]: korting
+                      - paragraph [ref=e542]:
+                        - generic [ref=e543]:
+                          - text: Meestal
+                          - generic [ref=e544]: 58,79
+                        - button "Meer informatie over referentieprijs" [ref=e545] [cursor=pointer]:
+                          - img [ref=e547] [cursor=pointer]
+                      - generic [ref=e549]: De adviesprijs is 58 euro en 79 cent.
+                  - button "Op je verlanglijstje" [ref=e550] [cursor=pointer]:
+                    - img [ref=e552] [cursor=pointer]
+              - listitem [ref=e554]:
+                - generic [ref=e556]:
+                  - link "Het ultieme geheim" [ref=e557] [cursor=pointer]:
+                    - /url: /nl/nl/p/het-ultieme-geheim/9300000224061651/
+                    - img "Het ultieme geheim" [ref=e559] [cursor=pointer]
+                  - generic [ref=e560]:
+                    - link "Het ultieme geheim" [ref=e561] [cursor=pointer]:
+                      - /url: /nl/nl/p/het-ultieme-geheim/9300000224061651/?promo=main_862_top_picks_for_you___product_4_9300000224061651
+                      - paragraph [ref=e562] [cursor=pointer]: Het ultieme geheim
+                    - generic [ref=e564]:
+                      - generic [ref=e566]: "29"
+                      - generic [ref=e567]: ","
+                      - generic [ref=e568]: "99"
+                  - button "Op je verlanglijstje" [ref=e569] [cursor=pointer]:
+                    - img [ref=e571] [cursor=pointer]
+              - listitem [ref=e573]:
+                - generic [ref=e575]:
+                  - link "Nescafé Dolce Gusto capsules Latte Macchiato Caramel - 48 koffiecups voor 24 koppen koffie" [ref=e576] [cursor=pointer]:
+                    - /url: /nl/nl/p/nescafe-dolce-gusto-caramel-latte-macchiato-48-koffiecups-voor-24-koppen-koffie/9200000066189014/
+                    - img "Nescafé Dolce Gusto capsules Latte Macchiato Caramel - 48 koffiecups voor 24 koppen koffie" [ref=e578] [cursor=pointer]
+                  - generic [ref=e579]:
+                    - link "Nescafé Dolce Gusto capsules Latte Macchiato Caramel - 48 koffiecups voor 24 koppen koffie" [ref=e580] [cursor=pointer]:
+                      - /url: /nl/nl/p/nescafe-dolce-gusto-caramel-latte-macchiato-48-koffiecups-voor-24-koppen-koffie/9200000066189014/?promo=main_862_top_picks_for_you___product_5_9200000066189014
+                      - paragraph [ref=e581] [cursor=pointer]: Nescafé Dolce Gusto capsules Latte Macchiato Caramel - 48 koffiecups voor 24 koppen koffie
+                    - generic [ref=e582]:
+                      - generic [ref=e583]:
+                        - generic [ref=e585]: "12"
+                        - generic [ref=e586]: ","
+                        - generic [ref=e587]: "-"
+                      - generic [ref=e589]: korting
+                      - paragraph [ref=e590]:
+                        - generic [ref=e591]:
+                          - text: Meestal
+                          - generic [ref=e592]: 17,97
+                        - button "Meer informatie over referentieprijs" [ref=e593] [cursor=pointer]:
+                          - img [ref=e595] [cursor=pointer]
+                      - generic [ref=e597]: De adviesprijs is 17 euro en 97 cent.
+                  - button "Op je verlanglijstje" [ref=e598] [cursor=pointer]:
+                    - img [ref=e600] [cursor=pointer]
+      - generic [ref=e603]:
+        - heading "Ontdek alles bij bol" [level=2] [ref=e606]:
+          - generic [ref=e607]:
+            - strong [ref=e608]: Ontdek alles
+            - text: bij bol
+        - navigation [ref=e609]:
+          - list [ref=e610]:
+            - listitem [ref=e611]:
+              - list [ref=e612]:
+                - listitem [ref=e613]:
+                  - heading "Boeken" [level=3] [ref=e614]
+                  - list [ref=e615]:
+                    - listitem [ref=e616]:
+                      - link "Boeken" [ref=e617] [cursor=pointer]:
+                        - /url: /nl/nl/l/boeken/8299/
+                    - listitem [ref=e618]:
+                      - link "Nederlandstalige boeken" [ref=e619] [cursor=pointer]:
+                        - /url: /nl/nl/l/nederlandse-boeken/8299/8293/
+                    - listitem [ref=e620]:
+                      - link "Engelstalige boeken" [ref=e621] [cursor=pointer]:
+                        - /url: /nl/nl/l/engelse-boeken/8299/8292/
+                    - listitem [ref=e622]:
+                      - link "E-books" [ref=e623] [cursor=pointer]:
+                        - /url: /nl/nl/l/ebooks/8299/7419/
+                    - listitem [ref=e624]:
+                      - link "E-readers" [ref=e625] [cursor=pointer]:
+                        - /url: /nl/nl/l/e-readers/10681/
+                    - listitem [ref=e626]:
+                      - link "Kobo Plus abonnement" [ref=e627] [cursor=pointer]:
+                        - /url: /nl/nl/sf/kobo-plus/
+                    - listitem [ref=e628]:
+                      - link "Tweedehands boeken" [ref=e629] [cursor=pointer]:
+                        - /url: /nl/nl/l/tweedehands-boeken/8299/1426/
+                    - listitem [ref=e630]:
+                      - link "Luisterboeken" [ref=e631] [cursor=pointer]:
+                        - /url: /nl/nl/l/luisterboeken/8299/7420/
+                    - listitem [ref=e632]:
+                      - link "Studieboeken" [ref=e633] [cursor=pointer]:
+                        - /url: /nl/nl/l/boeken-studieboeken/8299/67400/
+                - listitem [ref=e634]:
+                  - heading "Muziek, Films & Gaming" [level=3] [ref=e635]
+                  - list [ref=e636]:
+                    - listitem [ref=e637]:
+                      - link "Muziek" [ref=e638] [cursor=pointer]:
+                        - /url: /nl/nl/sf/muziek/
+                    - listitem [ref=e639]:
+                      - link "Merchandise" [ref=e640] [cursor=pointer]:
+                        - /url: /nl/nl/sf/merchandise/
+                    - listitem [ref=e641]:
+                      - link "DVD" [ref=e642] [cursor=pointer]:
+                        - /url: /nl/nl/l/films-en-series-op-dvd/53445/
+                    - listitem [ref=e643]:
+                      - link "Blu-ray" [ref=e644] [cursor=pointer]:
+                        - /url: /nl/nl/l/films-en-series-op-blu-ray/53446/
+                    - listitem [ref=e645]:
+                      - link "TV-series" [ref=e646] [cursor=pointer]:
+                        - /url: /nl/nl/l/series/3133/30291/
+                    - listitem [ref=e647]:
+                      - link "Gaming" [ref=e648] [cursor=pointer]:
+                        - /url: /nl/nl/l/gaming/3135/
+                    - listitem [ref=e649]:
+                      - link "Consoles & accessoires" [ref=e650] [cursor=pointer]:
+                        - /url: /nl/nl/sf/gameshardware/
+                - listitem [ref=e651]:
+                  - heading "Sport, Outdoor & Reizen" [level=3] [ref=e652]
+                  - list [ref=e653]:
+                    - listitem [ref=e654]:
+                      - link "Sport" [ref=e655] [cursor=pointer]:
+                        - /url: /nl/nl/l/sportartikelen/14648/
+                    - listitem [ref=e656]:
+                      - link "Sportkleding" [ref=e657] [cursor=pointer]:
+                        - /url: /nl/nl/l/sportkleding/17377/
+                    - listitem [ref=e658]:
+                      - link "Kamperen & Outdoor" [ref=e659] [cursor=pointer]:
+                        - /url: /nl/nl/l/kamperen-outdoor/15270/
+                    - listitem [ref=e660]:
+                      - link "Reisbagage" [ref=e661] [cursor=pointer]:
+                        - /url: /nl/nl/l/reisbagage-reisaccessoires/16799/
+            - listitem [ref=e662]:
+              - list [ref=e663]:
+                - listitem [ref=e664]:
+                  - heading "Computer & Elektronica" [level=3] [ref=e665]
+                  - list [ref=e666]:
+                    - listitem [ref=e667]:
+                      - link "Computer" [ref=e668] [cursor=pointer]:
+                        - /url: /nl/nl/sf/computer/
+                    - listitem [ref=e669]:
+                      - link "Telefonie" [ref=e670] [cursor=pointer]:
+                        - /url: /nl/nl/sf/mobile/
+                    - listitem [ref=e671]:
+                      - link "Tablets" [ref=e672] [cursor=pointer]:
+                        - /url: /nl/nl/l/tablets/10656/
+                    - listitem [ref=e673]:
+                      - link "Huishoudelijke apparaten" [ref=e674] [cursor=pointer]:
+                        - /url: /nl/nl/sf/huishoudelijke-apparaten/
+                    - listitem [ref=e675]:
+                      - link "Keukenapparaten" [ref=e676] [cursor=pointer]:
+                        - /url: /nl/nl/sf/keukenapparaten/
+                    - listitem [ref=e677]:
+                      - link "Camera's" [ref=e678] [cursor=pointer]:
+                        - /url: /nl/nl/l/fotocamera-s/4070/
+                    - listitem [ref=e679]:
+                      - link "Smartwatches" [ref=e680] [cursor=pointer]:
+                        - /url: /nl/nl/l/smartwatches/18157/
+                    - listitem [ref=e681]:
+                      - link "Navigatie" [ref=e682] [cursor=pointer]:
+                        - /url: /nl/nl/l/navigatie-accessoires/4005/
+                    - listitem [ref=e683]:
+                      - link "Televisies" [ref=e684] [cursor=pointer]:
+                        - /url: /nl/nl/l/tv-s/7291/
+                    - listitem [ref=e685]:
+                      - link "Audio & Hifi" [ref=e686] [cursor=pointer]:
+                        - /url: /nl/nl/sf/audio-hifi/
+                    - listitem [ref=e687]:
+                      - link "Persoonlijke verzorging" [ref=e688] [cursor=pointer]:
+                        - /url: /nl/nl/sf/persoonlijke-verzorging/
+                - listitem [ref=e689]:
+                  - heading "Speelgoed & Hobby" [level=3] [ref=e690]
+                  - list [ref=e691]:
+                    - listitem [ref=e692]:
+                      - link "Speelgoed" [ref=e693] [cursor=pointer]:
+                        - /url: /nl/nl/l/speelgoed/7934/
+                    - listitem [ref=e694]:
+                      - link "Hobby & Creatief" [ref=e695] [cursor=pointer]:
+                        - /url: /nl/nl/l/-/10505/
+                    - listitem [ref=e696]:
+                      - link "Buitenspeelgoed" [ref=e697] [cursor=pointer]:
+                        - /url: /nl/nl/l/buitenspeelgoed/10494/
+                    - listitem [ref=e698]:
+                      - link "Verkleedkleding" [ref=e699] [cursor=pointer]:
+                        - /url: /nl/nl/l/verkleedkleding-merch/10516/
+                - listitem [ref=e700]:
+                  - heading "Cadeau & Inspiratie" [level=3] [ref=e701]
+                  - list [ref=e702]:
+                    - listitem [ref=e703]:
+                      - link "Cadeaubonnen" [ref=e704] [cursor=pointer]:
+                        - /url: /nl/nl/m/cadeaubon-bestellen/
+                    - listitem [ref=e705]:
+                      - link "Cadeauwinkel" [ref=e706] [cursor=pointer]:
+                        - /url: /nl/nl/sf/cadeauwinkel-volwassenen/
+                    - listitem [ref=e707]:
+                      - link "Lees Magazine" [ref=e708] [cursor=pointer]:
+                        - /url: /nl/nl/sf/lees/
+            - listitem [ref=e709]:
+              - list [ref=e710]:
+                - listitem [ref=e711]:
+                  - heading "Koken & Tafelen" [level=3] [ref=e712]
+                  - list [ref=e713]:
+                    - listitem [ref=e714]:
+                      - link "Koken & Tafelen" [ref=e715] [cursor=pointer]:
+                        - /url: /nl/nl/l/-/11764/
+                    - listitem [ref=e716]:
+                      - link "Barbecues" [ref=e717] [cursor=pointer]:
+                        - /url: /nl/nl/l/barbecues/11771/
+                    - listitem [ref=e718]:
+                      - link "Pannen" [ref=e719] [cursor=pointer]:
+                        - /url: /nl/nl/l/pannen/11767/
+                - listitem [ref=e720]:
+                  - heading "Huishouden" [level=3] [ref=e721]
+                  - list [ref=e722]:
+                    - listitem [ref=e723]:
+                      - link "Huishouden" [ref=e724] [cursor=pointer]:
+                        - /url: /nl/nl/l/huishouden/12001/
+                    - listitem [ref=e725]:
+                      - link "Prullenbakken" [ref=e726] [cursor=pointer]:
+                        - /url: /nl/nl/l/prullenbakken/12022/
+                - listitem [ref=e727]:
+                  - heading "Tuin" [level=3] [ref=e728]
+                  - list [ref=e729]:
+                    - listitem [ref=e730]:
+                      - link "Tuin" [ref=e731] [cursor=pointer]:
+                        - /url: /nl/nl/sf/tuin/
+                    - listitem [ref=e732]:
+                      - link "Tuinmeubelen" [ref=e733] [cursor=pointer]:
+                        - /url: /nl/nl/l/tuinmeubelen/12975/
+                    - listitem [ref=e734]:
+                      - link "Tuingereedschap" [ref=e735] [cursor=pointer]:
+                        - /url: /nl/nl/l/tuingereedschap/13061/
+                    - listitem [ref=e736]:
+                      - link "Loungesets" [ref=e737] [cursor=pointer]:
+                        - /url: /nl/nl/l/loungesets/14344/
+                - listitem [ref=e738]:
+                  - heading "Dier" [level=3] [ref=e739]
+                  - list [ref=e740]:
+                    - listitem [ref=e741]:
+                      - link "Dier" [ref=e742] [cursor=pointer]:
+                        - /url: /nl/nl/l/dieren/12748/
+                    - listitem [ref=e743]:
+                      - link "Hond" [ref=e744] [cursor=pointer]:
+                        - /url: /nl/nl/l/hondenwinkel/12749/
+                    - listitem [ref=e745]:
+                      - link "Katten" [ref=e746] [cursor=pointer]:
+                        - /url: /nl/nl/l/kattenwinkel/12835/
+                    - listitem [ref=e747]:
+                      - link "Paard & Ruiter" [ref=e748] [cursor=pointer]:
+                        - /url: /nl/nl/l/paardenwinkel/12939/
+                    - listitem [ref=e749]:
+                      - link "Knaagdieren" [ref=e750] [cursor=pointer]:
+                        - /url: /nl/nl/l/knaagdierenwinkel/12888/
+                    - listitem [ref=e751]:
+                      - link "Vissen" [ref=e752] [cursor=pointer]:
+                        - /url: /nl/nl/l/aquariumwinkel/12885/
+                    - listitem [ref=e753]:
+                      - link "Reptielen" [ref=e754] [cursor=pointer]:
+                        - /url: /nl/nl/l/reptielen-benodigdheden/12924/
+                    - listitem [ref=e755]:
+                      - link "Vogels" [ref=e756] [cursor=pointer]:
+                        - /url: /nl/nl/l/vogelwinkel/22258/
+            - listitem [ref=e757]:
+              - list [ref=e758]:
+                - listitem [ref=e759]:
+                  - heading "Wonen" [level=3] [ref=e760]
+                  - list [ref=e761]:
+                    - listitem [ref=e762]:
+                      - link "Wonen" [ref=e763] [cursor=pointer]:
+                        - /url: /nl/nl/l/woonartikelen/14035/
+                    - listitem [ref=e764]:
+                      - link "Meubels" [ref=e765] [cursor=pointer]:
+                        - /url: /nl/nl/l/meubels/25152/
+                    - listitem [ref=e766]:
+                      - link "Beddengoed" [ref=e767] [cursor=pointer]:
+                        - /url: /nl/nl/l/beddengoed/14193/
+                    - listitem [ref=e768]:
+                      - link "Verlichting" [ref=e769] [cursor=pointer]:
+                        - /url: /nl/nl/l/verlichting/14258/
+                    - listitem [ref=e770]:
+                      - link "Woonaccessoires" [ref=e771] [cursor=pointer]:
+                        - /url: /nl/nl/l/woonaccessoires/14124/
+                - listitem [ref=e772]:
+                  - heading "Klussen" [level=3] [ref=e773]
+                  - list [ref=e774]:
+                    - listitem [ref=e775]:
+                      - link "Klussen" [ref=e776] [cursor=pointer]:
+                        - /url: /nl/nl/sf/klussen/
+                    - listitem [ref=e777]:
+                      - link "Elektrisch gereedschap" [ref=e778] [cursor=pointer]:
+                        - /url: /nl/nl/sf/elektrisch-gereedschap/
+                    - listitem [ref=e779]:
+                      - link "Werkkleding & Bescherming" [ref=e780] [cursor=pointer]:
+                        - /url: /nl/nl/sf/werkkleding-bescherming/
+                    - listitem [ref=e781]:
+                      - link "Verfspullen" [ref=e782] [cursor=pointer]:
+                        - /url: /nl/nl/l/verfspullen/13261/
+                    - listitem [ref=e783]:
+                      - link "Behang" [ref=e784] [cursor=pointer]:
+                        - /url: /nl/nl/l/behang/13271/
+                    - listitem [ref=e785]:
+                      - link "Bouwmaterialen" [ref=e786] [cursor=pointer]:
+                        - /url: /nl/nl/sf/bouwmaterialen/
+                    - listitem [ref=e787]:
+                      - link "Sanitair" [ref=e788] [cursor=pointer]:
+                        - /url: /nl/nl/l/badkamer-sanitair/13330/
+                - listitem [ref=e789]:
+                  - heading "Mooi & Gezond" [level=3] [ref=e790]
+                  - list [ref=e791]:
+                    - listitem [ref=e792]:
+                      - link "Verzorging" [ref=e793] [cursor=pointer]:
+                        - /url: /nl/nl/l/verzorgingsproducten/12442/
+                    - listitem [ref=e794]:
+                      - link "Make-up" [ref=e795] [cursor=pointer]:
+                        - /url: /nl/nl/l/make-up/12383/
+                    - listitem [ref=e796]:
+                      - link "Parfum" [ref=e797] [cursor=pointer]:
+                        - /url: /nl/nl/l/parfum/12428/
+                    - listitem [ref=e798]:
+                      - link "Luxe & Professionele verzorging" [ref=e799] [cursor=pointer]:
+                        - /url: /nl/nl/sf/parfum-en-luxe-verzorging/
+                    - listitem [ref=e800]:
+                      - link "Geschenksets" [ref=e801] [cursor=pointer]:
+                        - /url: /nl/nl/l/giftsets/12687/
+                    - listitem [ref=e802]:
+                      - link "Gezondheid" [ref=e803] [cursor=pointer]:
+                        - /url: /nl/nl/sf/gezondheid/
+                    - listitem [ref=e804]:
+                      - link "Erotiek" [ref=e805] [cursor=pointer]:
+                        - /url: /nl/nl/l/erotiek/12605/
+            - listitem [ref=e806]:
+              - list [ref=e807]:
+                - listitem [ref=e808]:
+                  - heading "Damesmode" [level=3] [ref=e809]
+                  - list [ref=e810]:
+                    - listitem [ref=e811]:
+                      - link "Damesmode" [ref=e812] [cursor=pointer]:
+                        - /url: /nl/nl/l/-/46673/
+                    - listitem [ref=e813]:
+                      - link "Dameskleding" [ref=e814] [cursor=pointer]:
+                        - /url: /nl/nl/l/dameskleding/47198/
+                    - listitem [ref=e815]:
+                      - link "Dames schoenen" [ref=e816] [cursor=pointer]:
+                        - /url: /nl/nl/l/dames-schoenen/37400/
+                    - listitem [ref=e817]:
+                      - link "Lingerie" [ref=e818] [cursor=pointer]:
+                        - /url: /nl/nl/l/-/46974/
+                    - listitem [ref=e819]:
+                      - link "Dames accessoires" [ref=e820] [cursor=pointer]:
+                        - /url: /nl/nl/l/dames-accessoires/46829/
+                    - listitem [ref=e821]:
+                      - link "Dames sieraden & horloges" [ref=e822] [cursor=pointer]:
+                        - /url: /nl/nl/l/sieraden-horloges/67198/
+                - listitem [ref=e823]:
+                  - heading "Herenmode" [level=3] [ref=e824]
+                  - list [ref=e825]:
+                    - listitem [ref=e826]:
+                      - link "Herenmode" [ref=e827] [cursor=pointer]:
+                        - /url: /nl/nl/l/-/47024/
+                    - listitem [ref=e828]:
+                      - link "Herenkleding" [ref=e829] [cursor=pointer]:
+                        - /url: /nl/nl/l/herenkleding/47410/
+                    - listitem [ref=e830]:
+                      - link "Heren schoenen" [ref=e831] [cursor=pointer]:
+                        - /url: /nl/nl/l/heren-schoenen/37401/
+                    - listitem [ref=e832]:
+                      - link "Heren ondergoed" [ref=e833] [cursor=pointer]:
+                        - /url: /nl/nl/l/heren-ondergoed/47173/
+                    - listitem [ref=e834]:
+                      - link "Heren accessoires" [ref=e835] [cursor=pointer]:
+                        - /url: /nl/nl/l/heren-accessoires/47102/
+                    - listitem [ref=e836]:
+                      - link "Heren sieraden & horloges" [ref=e837] [cursor=pointer]:
+                        - /url: /nl/nl/l/sieraden-horloges/67199/
+                - listitem [ref=e838]:
+                  - heading "Baby & Kind" [level=3] [ref=e839]
+                  - list [ref=e840]:
+                    - listitem [ref=e841]:
+                      - link "Baby & Kind" [ref=e842] [cursor=pointer]:
+                        - /url: /nl/nl/sf/baby/
+                    - listitem [ref=e843]:
+                      - link "Babykamer" [ref=e844] [cursor=pointer]:
+                        - /url: /nl/nl/l/babykamers/11286/
+                    - listitem [ref=e845]:
+                      - link "Onderweg" [ref=e846] [cursor=pointer]:
+                        - /url: /nl/nl/l/-/11272/
+                    - listitem [ref=e847]:
+                      - link "Babyverzorging" [ref=e848] [cursor=pointer]:
+                        - /url: /nl/nl/l/-/11306/
+                    - listitem [ref=e849]:
+                      - link "Babykleding" [ref=e850] [cursor=pointer]:
+                        - /url: /nl/nl/l/babykleding/21357/
+                    - listitem [ref=e851]:
+                      - link "Kinderkleding" [ref=e852] [cursor=pointer]:
+                        - /url: /nl/nl/l/kindermode/16947/
+            - listitem [ref=e853]:
+              - list [ref=e854]:
+                - listitem [ref=e855]:
+                  - heading "Eten & Drinken" [level=3] [ref=e856]
+                  - list [ref=e857]:
+                    - listitem [ref=e858]:
+                      - link "Eten & Drinken" [ref=e859] [cursor=pointer]:
+                        - /url: /nl/nl/sf/eten-drinken/
+                    - listitem [ref=e860]:
+                      - link "Koffie" [ref=e861] [cursor=pointer]:
+                        - /url: /nl/nl/sf/koffiewinkel/
+                    - listitem [ref=e862]:
+                      - link "Thee" [ref=e863] [cursor=pointer]:
+                        - /url: /nl/nl/l/thee/20616/
+                    - listitem [ref=e864]:
+                      - link "Frisdranken" [ref=e865] [cursor=pointer]:
+                        - /url: /nl/nl/l/-/62465/
+                    - listitem [ref=e866]:
+                      - link "Snoep, Koek, Chocolade" [ref=e867] [cursor=pointer]:
+                        - /url: /nl/nl/l/koek-en-chocolade/63490/
+                - listitem [ref=e868]:
+                  - heading "Auto & Motor" [level=3] [ref=e869]
+                  - list [ref=e870]:
+                    - listitem [ref=e871]:
+                      - link "Auto & Motor" [ref=e872] [cursor=pointer]:
+                        - /url: /nl/nl/l/auto-motor/43646/
+                    - listitem [ref=e873]:
+                      - link "Auto-accessoires" [ref=e874] [cursor=pointer]:
+                        - /url: /nl/nl/l/autoaccessoires/43647/
+                    - listitem [ref=e875]:
+                      - link "Auto-onderhoud" [ref=e876] [cursor=pointer]:
+                        - /url: /nl/nl/l/auto-onderhoud/43649/
+                    - listitem [ref=e877]:
+                      - link "Auto-onderdelen" [ref=e878] [cursor=pointer]:
+                        - /url: /nl/nl/l/auto-onderdelen/43648/
+                    - listitem [ref=e879]:
+                      - link "Motoraccessoires" [ref=e880] [cursor=pointer]:
+                        - /url: /nl/nl/l/motoraccessoires/43650/
+                    - listitem [ref=e881]:
+                      - link "Motorkleding" [ref=e882] [cursor=pointer]:
+                        - /url: /nl/nl/l/motorkleding/43652/
+                    - listitem [ref=e883]:
+                      - link "Motoronderhoud & -onderdelen" [ref=e884] [cursor=pointer]:
+                        - /url: /nl/nl/l/motoronderhoud-onderdelen/43651/
+                - listitem [ref=e885]:
+                  - heading "School & Kantoor" [level=3] [ref=e886]
+                  - list [ref=e887]:
+                    - listitem [ref=e888]:
+                      - link "Kantoorartikelen" [ref=e889] [cursor=pointer]:
+                        - /url: /nl/nl/l/-/51820/
+                    - listitem [ref=e890]:
+                      - link "Schoolspullen" [ref=e891] [cursor=pointer]:
+                        - /url: /nl/nl/l/-/10571/
+                    - listitem [ref=e892]:
+                      - link "Dagboeken & Vriendenboeken" [ref=e893] [cursor=pointer]:
+                        - /url: /nl/nl/l/dagboeken-vriendenboekjes/31133/
+                    - listitem [ref=e894]:
+                      - link "Wenskaarten" [ref=e895] [cursor=pointer]:
+                        - /url: /nl/nl/l/wenskaarten/25960/
+                    - listitem [ref=e896]:
+                      - link "Tijdschriften & Puzzelboeken" [ref=e897] [cursor=pointer]:
+                        - /url: /nl/nl/l/-/54827/
+                    - listitem [ref=e898]:
+                      - link "Fotoalbums & Accessoires" [ref=e899] [cursor=pointer]:
+                        - /url: /nl/nl/l/fotoalbums-accessoires/21024/
+                    - listitem [ref=e900]:
+                      - link "Cadeaupapier & Verpakkingen" [ref=e901] [cursor=pointer]:
+                        - /url: /nl/nl/l/cadeauverpakkingen-cadeaupapier/26013/
+  - contentinfo [ref=e902]:
+    - generic [ref=e904]:
+      - heading "Service & contact" [level=2] [ref=e906]
+      - generic [ref=e907]:
+        - figure [ref=e908]:
+          - img [ref=e909]
+        - generic [ref=e911]:
+          - heading "Snel regelen in je account" [level=3] [ref=e912]:
+            - strong [ref=e913]: Snel regelen in je account
+          - paragraph [ref=e914]:
+            - link "Volg je bestelling" [ref=e915] [cursor=pointer]:
+              - /url: /nl/nl/rnwy/account/bestellingen/overzicht
+            - text: ","
+            - link "betaal facturen" [ref=e916] [cursor=pointer]:
+              - /url: /nl/nl/rnwy/account/facturen
+            - text: of
+            - link "retourneer een artikel" [ref=e917] [cursor=pointer]:
+              - /url: /nl/nl/account/retourneren/overzicht
+            - text: .
+      - generic [ref=e918]:
+        - figure [ref=e919]:
+          - img [ref=e920]
+        - generic [ref=e922]:
+          - heading "Heb je ons nodig?" [level=3] [ref=e923]:
+            - strong [ref=e924]: Heb je ons nodig?
+          - paragraph [ref=e925]:
+            - text: We helpen je graag.
+            - link "Onze klantenservice" [ref=e926] [cursor=pointer]:
+              - /url: /nl/nl/m/klantenservice
+            - text: is dag en nacht open.
+    - generic [ref=e927]:
+      - list [ref=e928]:
+        - listitem [ref=e929]:
+          - heading "Klantenservice" [level=3] [ref=e930]:
+            - link "Klantenservice" [ref=e931] [cursor=pointer]:
+              - /url: /nl/nl/m/klantenservice
+          - list [ref=e932]:
+            - listitem [ref=e933]:
+              - link "Contact opnemen" [ref=e934] [cursor=pointer]:
+                - /url: /nl/nl/m/klantenservice
+            - listitem [ref=e935]:
+              - link "Bestellen & Leveren" [ref=e936] [cursor=pointer]:
+                - /url: /nl/nl/m/bestellen
+            - listitem [ref=e937]:
+              - link "Betalen" [ref=e938] [cursor=pointer]:
+                - /url: /nl/nl/m/betalen
+            - listitem [ref=e939]:
+              - link "Retourneren" [ref=e940] [cursor=pointer]:
+                - /url: /nl/nl/m/retourneren
+            - listitem [ref=e941]:
+              - link "Garantie & Reparatie" [ref=e942] [cursor=pointer]:
+                - /url: /nl/nl/m/garantie/subject/62650041
+            - listitem [ref=e943]:
+              - link "Terugroepacties" [ref=e944] [cursor=pointer]:
+                - /url: /nl/nl/inf/terugroepacties-van-artikelen/49922/
+        - listitem [ref=e945]:
+          - heading "Over bol" [level=3] [ref=e946]:
+            - link "Over bol" [ref=e947] [cursor=pointer]:
+              - /url: //pers.bol.com/nl/het-verhaal/
+          - list [ref=e948]:
+            - listitem [ref=e949]:
+              - link "De voordelen van bol" [ref=e950] [cursor=pointer]:
+                - /url: /nl/nl/sf/winkelen-zonder-zorgen
+            - listitem [ref=e951]:
+              - link "Nieuws" [ref=e952] [cursor=pointer]:
+                - /url: //pers.bol.com
+            - listitem [ref=e953]:
+              - link "De bol app" [ref=e954] [cursor=pointer]:
+                - /url: /nl/nl/sf/mobiele-app
+            - listitem [ref=e955]:
+              - link "Werken bij bol" [ref=e956] [cursor=pointer]:
+                - /url: //banen.bol.com/
+            - listitem [ref=e957]:
+              - link "Bol & duurzaamheid" [ref=e958] [cursor=pointer]:
+                - /url: /nl/nl/sf/duurzaamheid/
+            - listitem [ref=e959]:
+              - link "Bollebozen" [ref=e960] [cursor=pointer]:
+                - /url: /nl/nl/sf/bollebozen
+            - listitem [ref=e961]:
+              - link "Toegankelijkheidsverklaring" [ref=e962] [cursor=pointer]:
+                - /url: /nl/nl/tc/toegankelijkheidsverklaring/
+            - listitem [ref=e963]:
+              - link "Bedrijfsgegevens" [ref=e964] [cursor=pointer]:
+                - /url: /nl/nl/klantenservice/a/5715110588841984/bedrijfsgegevens
+        - listitem [ref=e965]:
+          - heading "Zakendoen met bol" [level=3] [ref=e966]:
+            - link "Zakendoen met bol" [ref=e967] [cursor=pointer]:
+              - /url: /nl/nl/sf/zakendoen-met-bolcom
+          - list [ref=e968]:
+            - listitem [ref=e969]:
+              - link "Zakelijk verkopen" [ref=e970] [cursor=pointer]:
+                - /url: //partnerplatform.bol.com/
+            - listitem [ref=e971]:
+              - link "Zakelijk bestellen" [ref=e972] [cursor=pointer]:
+                - /url: /nl/nl/sf/zakelijk-bestellen
+            - listitem [ref=e973]:
+              - link "Zakelijke cadeaukaarten" [ref=e974] [cursor=pointer]:
+                - /url: //cadeaukaart.bol.com/
+            - listitem [ref=e975]:
+              - link "Adverteren" [ref=e976] [cursor=pointer]:
+                - /url: //adverteren.bol.com
+            - listitem [ref=e977]:
+              - link "Affiliate Marketing" [ref=e978] [cursor=pointer]:
+                - /url: //affiliate.bol.com/nl/
+        - listitem [ref=e979]:
+          - heading "Wil je ons volgen?" [level=3] [ref=e980]:
+            - strong [ref=e981]: Wil je ons volgen?
+          - generic [ref=e982]:
+            - link "Volg ons op de facebook pagina van bol" [ref=e983] [cursor=pointer]:
+              - /url: //www.facebook.com/bolpuntcom
+              - img [ref=e985] [cursor=pointer]
+            - link "Volg ons op de pinterest pagina van bol" [ref=e987] [cursor=pointer]:
+              - /url: //www.pinterest.com/bol
+              - img [ref=e989] [cursor=pointer]
+            - link "Volg ons op de instagram pagina van bol" [ref=e991] [cursor=pointer]:
+              - /url: //www.instagram.com/bol
+              - img [ref=e993] [cursor=pointer]
+            - link "Volg ons op de youtube pagina van bol" [ref=e997] [cursor=pointer]:
+              - /url: //www.youtube.com/user/bolcom
+              - img [ref=e999] [cursor=pointer]
+            - link "Volg ons op de linkedin pagina van bol" [ref=e1001] [cursor=pointer]:
+              - /url: //www.linkedin.com/company/11699
+              - img [ref=e1003] [cursor=pointer]
+            - link "Volg ons op de TikTok pagina van bol" [ref=e1005] [cursor=pointer]:
+              - /url: //www.tiktok.com/@bol
+              - img [ref=e1007] [cursor=pointer]
+          - paragraph [ref=e1009]:
+            - link "Meld je aan" [ref=e1010] [cursor=pointer]:
+              - /url: /nl/nl/rnwy/account/newsletters
+            - text: voor korting en inspiratie in je mailbox
+      - generic [ref=e1011]:
+        - paragraph [ref=e1012]:
+          - img "bol de winkel van ons allemaal" [ref=e1013]
+        - generic [ref=e1015]:
+          - list [ref=e1016]:
+            - listitem [ref=e1017]:
+              - link "Certificaat Thuiswinkel Waarborg" [ref=e1018] [cursor=pointer]:
+                - /url: //www.thuiswinkel.org/leden/bol.com/certificaat
+                - generic [ref=e1019] [cursor=pointer]: Certificaat Thuiswinkel Waarborg
+                - img [ref=e1020] [cursor=pointer]
+              - text: Geldt voor aankopen bij
+              - link "Thuiswinkel-leden" [ref=e1025] [cursor=pointer]:
+                - /url: /nl/nl/sf/thuiswinkel-waarborg
+            - listitem [ref=e1026]:
+              - text: "|"
+              - link "Algemene voorwaarden" [ref=e1027] [cursor=pointer]:
+                - /url: /nl/nl/tc/
+            - listitem [ref=e1028]:
+              - text: "|"
+              - link "Privacy" [ref=e1029] [cursor=pointer]:
+                - /url: /nl/nl/tc/privacybeleid
+            - listitem [ref=e1030]:
+              - text: "|"
+              - link "Cookies" [ref=e1031] [cursor=pointer]:
+                - /url: /nl/nl/tc/cookiebeleid
+            - listitem [ref=e1032]:
+              - text: "|"
+              - link "©" [ref=e1033] [cursor=pointer]:
+                - /url: /nl/nl/tc/copyright
+              - text: 1999-2025 bol.com b.v.
+          - paragraph [ref=e1034]:
+            - text: "* De voordelen van bol.com gelden niet voor het gehele assortiment."
+            - link "Bekijk de voorwaarden" [ref=e1035] [cursor=pointer]:
+              - /url: /nl/nl/sf/winkelen-zonder-zorgen
+            - text: Alle prijzen zijn inclusief BTW en andere heffingen en exclusief eventuele
+            - link "verzendkosten" [ref=e1036] [cursor=pointer]:
+              - /url: /nl/nl/klantenservice/a/5711226101301248/bezorgopties-en-kosten
+            - text: en
+            - link "servicekosten" [ref=e1037] [cursor=pointer]:
+              - /url: /nl/nl/klantenservice/a/5711226101301248/bezorgopties-en-kosten
+```

@@ -1,0 +1,836 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - link "Ga naar zoeken" [ref=e3] [cursor=pointer]:
+    - /url: "#siteSearch"
+  - link "Ga naar hoofdinhoud" [ref=e4] [cursor=pointer]:
+    - /url: "#mainContent"
+  - link "Ga naar prijsinformatie en bestellen" [ref=e5] [cursor=pointer]:
+    - /url: "#buy-block"
+  - img [ref=e6]
+  - complementary "Onze voordelen" [ref=e7]:
+    - generic [ref=e8]:
+      - link "lekker winkelen zonder zorgen Gratis verzending vanaf 25,- Bezorging dezelfde dag, 's avonds of in het weekend* Gratis retourneren" [ref=e9] [cursor=pointer]:
+        - /url: /nl/nl/sf/winkelen-zonder-zorgen/
+        - generic [ref=e10] [cursor=pointer]: lekker winkelen zonder zorgen
+        - list [ref=e11] [cursor=pointer]:
+          - listitem [ref=e12] [cursor=pointer]:
+            - strong [ref=e13] [cursor=pointer]: Gratis
+            - text: verzending vanaf 25,-
+          - listitem [ref=e14] [cursor=pointer]: Bezorging dezelfde dag, 's avonds of in het weekend*
+          - listitem [ref=e15] [cursor=pointer]:
+            - strong [ref=e16] [cursor=pointer]: Gratis
+            - text: retourneren
+      - link "Select Ontdek nu de 4 voordelen" [ref=e17] [cursor=pointer]:
+        - /url: /nl/nl/select
+        - strong: Select
+        - generic [ref=e18] [cursor=pointer]: Ontdek nu de 4 voordelen
+  - banner [ref=e19]:
+    - generic [ref=e20]:
+      - link "Bol.com homepage" [ref=e22] [cursor=pointer]:
+        - /url: /nl/nl/
+        - img [ref=e23] [cursor=pointer]
+      - search [ref=e27]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: Zoeken
+          - textbox "Zoeken" [ref=e31]
+          - button "Zoeken" [ref=e32] [cursor=pointer]:
+            - img [ref=e33] [cursor=pointer]
+      - generic [ref=e35]:
+        - link "Inloggen" [ref=e36] [cursor=pointer]:
+          - /url: /nl/rnwy/account/overzicht
+          - generic [ref=e37] [cursor=pointer]: Inloggen
+        - link "Lijstjes" [ref=e38] [cursor=pointer]:
+          - /url: /nl/nl/lijstjes/overzicht-lijsten/
+          - generic [ref=e39] [cursor=pointer]: Lijstjes
+          - img [ref=e40] [cursor=pointer]
+        - link "Winkelwagen 0" [ref=e43] [cursor=pointer]:
+          - /url: /nl/nl/basket/
+          - img [ref=e44] [cursor=pointer]
+          - generic [ref=e46] [cursor=pointer]: Winkelwagen
+          - generic [ref=e47] [cursor=pointer]: "0"
+    - navigation "ariaMainNavigation" [ref=e52]:
+      - list [ref=e53]:
+        - button "Categorieën" [ref=e55] [cursor=pointer]
+        - button "Cadeaus & Inspiratie" [ref=e57] [cursor=pointer]
+        - button "Aanbiedingen" [ref=e59] [cursor=pointer]
+        - listitem
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - link "Zakelijk" [ref=e62] [cursor=pointer]:
+            - /url: /nl/nl/m/zakendoen-met-bolcom/
+        - listitem [ref=e63]:
+          - link "Cadeaukaart" [ref=e64] [cursor=pointer]:
+            - /url: /nl/nl/l/cadeaukaarten/20639/
+        - listitem [ref=e65]:
+          - link "Bestelstatus" [ref=e66] [cursor=pointer]:
+            - /url: /nl/rnwy/account/bestellingen/overzicht
+        - listitem [ref=e67]:
+          - link "Klantenservice" [ref=e68] [cursor=pointer]:
+            - /url: /nl/klantenservice/index.html
+        - listitem [ref=e69]:
+          - generic [ref=e70] [cursor=pointer]:
+            - generic [ref=e72] [cursor=pointer]: NL
+            - img [ref=e73] [cursor=pointer]
+            - link "Kies je land en taal, land is Nederland" [ref=e75] [cursor=pointer]:
+              - /url: /nl/rnwy/country-language
+  - main [ref=e76]:
+    - generic [ref=e78]:
+      - generic [ref=e80]:
+        - iframe [ref=e83]:
+          - generic [ref=f1e1]:
+            - link [ref=f1e2] [cursor=pointer]:
+              - /url: https://pagead2.googlesyndication.com/pcs/click?xai=AKAOjsvfCuW3eXCmowbK9Ps-XCM14o9lZ4-J5L6XiWj0l9hb454ab4qHzjoFGF5jwK52YAq6Qvycr5uicMrsA2bIxYgBQtY6y0_IhlEdneRbICKo3MyS5dp5YqbGBLRS5WP3IvPUH9gJcaBC8KSGtX23BKvu7pkitOn_EkzYASCAqykp1kE8k7xcEPJg9BL07OLPXZsU-FcWfZT2YUOOT6nk2tcvOSx7b12g27dSrmAsZ8mgdboup0MG-fHEM4L67Q0ZMUL7dPEg8mQMGXb0lQxMfFVQKENj9w7h-VpxV2iaJizTzt-B8lvCFiuBBoZvyIi5HFHUx2w7pvGwl0TdJ0y5e1oO1vMSydE9xHQBo555-oq1W8Rd--Iy76vDpOjgofJcQj1X43jnlVMFLYzOI0ZxWBltDjTV--XLgAaKFmCAqLMIYR_DK3g&sig=Cg0ArKJSzNt1E4SJi3vc&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://www.bol.com/nl/nl/ra/korting-op-dekbedden-van-o-a-terschellinger-wolweelde-en-fabiola/463501/%3Fbrmg%3DBC_053909%26li%3D7092576129%26cid%3D138529346880
+            - img [ref=f1e6] [cursor=pointer]
+            - button [ref=f1e9] [cursor=pointer]:
+              - img [ref=f1e10] [cursor=pointer]
+        - button "Advertentie" [ref=e85] [cursor=pointer]:
+          - generic [ref=e86] [cursor=pointer]:
+            - generic [ref=e87] [cursor=pointer]: Advertentie
+            - img [ref=e88] [cursor=pointer]
+      - generic [ref=e91]:
+        - iframe [ref=e94]:
+          - generic [ref=f2e1]:
+            - link [ref=f2e2] [cursor=pointer]:
+              - /url: https://pagead2.googlesyndication.com/pcs/click?xai=AKAOjstOTbI3kLHEtywmhqAekGXD21pvnpOALwTpdTTaaAyXOO_i-ASla4Ia1Ykmk3fdNz7uyBOcIjcL7J0hxqjfJUSzrlPuaZjGF46hx7LeBWTELJhpRCZ62-6FzzFHKN7zkkoV8u0q2p4EfReQRH4CvEAQzjPQ0HeA7sAQFxe72JnACyMQLi5hyt0u8_NhnYO1461x7lu41hVtTJ1za0348VTQ1YcaMKq-XYAWaI5nu8R87fv8fg2BRW07a4-xLpqfNauagvgUOJY3O2Smw7WYV0V1jqvj9Eo6uZcYHR5FLE_TDzNBQK8ak1NwoPdWspMjEYPW7TjiZv-DmqZvc9qDUHEsxx4LMf65QR-KUv9ozBPzdkydqjavBnD5jVLdXQR9Abi6hm1mUmXWpqYNUhqrXvjHDvZSTCOpxUZkpmjqE6Tm2cc&sig=Cg0ArKJSzDbhyH7yuQ9b&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://www.bol.com/nl/nl/ra/zeven-dagen-korting-op-acer-laptops/461232/%3Fbrmg%3DBC_051216%26li%3D7095359971%26cid%3D138531077875
+            - img [ref=f2e6] [cursor=pointer]
+            - button [ref=f2e9] [cursor=pointer]:
+              - img [ref=f2e10] [cursor=pointer]
+        - button "Advertentie" [ref=e96] [cursor=pointer]:
+          - generic [ref=e97] [cursor=pointer]:
+            - generic [ref=e98] [cursor=pointer]: Advertentie
+            - img [ref=e99] [cursor=pointer]
+      - generic [ref=e101]:
+        - link "Terug Terug" [ref=e104] [cursor=pointer]:
+          - /url: javascript:history.go(-1)
+          - img [ref=e105] [cursor=pointer]
+          - text: Terug
+          - generic "Back" [ref=e107] [cursor=pointer]: Terug
+        - list [ref=e109]:
+          - listitem [ref=e110]:
+            - link "Home" [ref=e111] [cursor=pointer]:
+              - /url: /nl/nl/
+              - img [ref=e112] [cursor=pointer]
+          - listitem [ref=e115]:
+            - link "Speelgoed" [ref=e117] [cursor=pointer]:
+              - /url: /nl/nl/l/speelgoed/7934/
+              - paragraph [ref=e118] [cursor=pointer]: Speelgoed
+          - listitem [ref=e119]:
+            - link "Bouwen & Constructie" [ref=e121] [cursor=pointer]:
+              - /url: /nl/nl/l/-/10462/
+              - paragraph [ref=e122] [cursor=pointer]: Bouwen & Constructie
+          - listitem [ref=e123]:
+            - link "Bouwsets" [ref=e125] [cursor=pointer]:
+              - /url: /nl/nl/l/bouwsets/20001/
+              - paragraph [ref=e126] [cursor=pointer]: Bouwsets
+      - generic [ref=e127]:
+        - heading "LEGO 630 Brick Separator - Elementensplitser (oranje)" [level=1] [ref=e128]:
+          - generic [ref=e129]: LEGO 630 Brick Separator - Elementensplitser (oranje)
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - text: "Merk:"
+            - link "LEGO" [ref=e132] [cursor=pointer]:
+              - /url: /nl/nl/pb/lego/4648554/
+            - text: "|"
+          - generic [ref=e133]:
+            - link "Gemiddeld 4.5 van de 5 sterren uit 2 reviews" [ref=e135] [cursor=pointer]:
+              - /url: "#product-reviews"
+              - generic "Gemiddeld 4.5 van de 5 sterren uit 2 reviews" [ref=e136] [cursor=pointer]:
+                - generic [ref=e139] [cursor=pointer]: 4,5/5
+                - generic [ref=e140] [cursor=pointer]: Bekijk 2 reviews
+            - text: "|"
+          - button "Delen" [ref=e144] [cursor=pointer]:
+            - img [ref=e145] [cursor=pointer]
+            - generic [ref=e147] [cursor=pointer]: Delen
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - generic [ref=e151]:
+            - heading "Afbeeldingen" [level=2] [ref=e152]
+            - link "Sla de afbeeldingen over" [ref=e153] [cursor=pointer]:
+              - /url: "#endOfImage"
+            - link "Chat met Billie" [ref=e154] [cursor=pointer]:
+              - /url: "#"
+            - generic [ref=e157]:
+              - button "Bekijk alle afbeeldingen" [ref=e161]:
+                - img "LEGO 630 Brick Separator - Elementensplitser (oranje)" [ref=e162]
+              - button [ref=e165]:
+                - img [ref=e166]
+            - list [ref=e170]:
+              - listitem [ref=e171]:
+                - button "Afbeelding nummer 1" [ref=e172] [cursor=pointer]:
+                  - img "Afbeelding nummer 1" [ref=e173] [cursor=pointer]
+              - listitem [ref=e174]:
+                - button "Afbeelding nummer 2" [ref=e175] [cursor=pointer]:
+                  - img "Afbeelding nummer 2" [ref=e176] [cursor=pointer]
+          - generic [ref=e177]:
+            - heading "Artikel vergelijken" [level=2] [ref=e178]
+            - generic [ref=e182]:
+              - checkbox "Vergelijk met andere artikelen" [ref=e183]
+              - generic [ref=e187] [cursor=pointer]: Vergelijk met andere artikelen
+          - generic [ref=e190]:
+            - link "LEGO" [ref=e192] [cursor=pointer]:
+              - /url: /nl/nl/b/lego/4648554/
+              - img "LEGO" [ref=e193] [cursor=pointer]
+            - paragraph [ref=e194]:
+              - text: "Uitgever:"
+              - link "LEGO" [ref=e195] [cursor=pointer]:
+                - /url: /nl/nl/b/lego/4648554/
+            - generic [ref=e197]:
+              - text: "Personage:"
+              - link "Geen personage" [ref=e198] [cursor=pointer]:
+                - /url: /nl/nl/b/geen-personage/600072689/
+            - list [ref=e199]:
+              - listitem [ref=e200]: 1 onderdelen
+              - listitem [ref=e201]: "| Geen minifiguren"
+              - listitem [ref=e202]: "| 2011"
+            - link "Alle productspecificaties" [ref=e204] [cursor=pointer]:
+              - /url: "#product_specifications"
+              - img [ref=e205] [cursor=pointer]
+              - generic: Alle productspecificaties
+          - generic [ref=e208]:
+            - heading "Productbeschrijving" [level=2] [ref=e209]
+            - paragraph [ref=e211]: Heel makkelijk voor het losmaken van LEGO-stenen is deze LEGO Stenenwipper (elementensplitser). Deze versie is uitgebracht in 2012 en heeft ook een mogeljkheid om assen los te maken.
+          - generic [ref=e213]:
+            - heading "Productspecificaties" [level=2] [ref=e214]
+            - generic [ref=e215]:
+              - generic [ref=e217]:
+                - generic [ref=e219]:
+                  - img [ref=e221]
+                  - generic [ref=e224]:
+                    - textbox "Zoeken naar kenmerken?" [ref=e225]
+                    - generic: Zoeken naar kenmerken?
+                - generic [ref=e226]:
+                  - heading "Overige kenmerken" [level=3] [ref=e227]
+                  - generic [ref=e228]:
+                    - generic [ref=e229]:
+                      - term [ref=e230]: Aanbevolen maximum leeftijd
+                      - definition [ref=e231]: 99 jaar
+                    - generic [ref=e232]:
+                      - term [ref=e233]:
+                        - text: Aanbevolen minimum leeftijd
+                        - button "Tooltip Aanbevolen minimum leeftijd De minimaal aanbevolen leeftijd voor dit product." [ref=e235]:
+                          - img [ref=e237]
+                      - definition [ref=e239]: 4 jaar
+                    - generic [ref=e240]:
+                      - term [ref=e241]: Aantal meegeleverde accu's/batterijen
+                      - definition [ref=e242]: "0"
+                    - generic [ref=e243]:
+                      - term [ref=e244]: Aantal minifiguren
+                      - definition [ref=e245]: Geen
+                    - generic [ref=e246]:
+                      - term [ref=e247]: Aantal onderdelen
+                      - definition [ref=e248]: "1"
+                    - generic [ref=e249]:
+                      - term [ref=e250]:
+                        - text: App vereist voor volledige functionaliteit
+                        - button "Tooltip App vereist voor volledige functionaliteit Als de app niet werkt op iOS of Android smartphones staat dit bij de productinformatie. Je kunt ook in de App Store of Play Store meer info opzoeken over de app, zoals de voorwaarden." [ref=e252]:
+                          - img [ref=e254]
+                      - definition [ref=e256]: Nee
+                    - generic [ref=e257]:
+                      - term [ref=e258]:
+                        - text: App werkt op besturingssyteem
+                        - button "Tooltip App werkt op besturingssyteem Als de app niet werkt op iOS of Android smartphones staat dit bij de productinformatie. In de App Store of Play Store staat ook meer info over de app." [ref=e260]:
+                          - img [ref=e262]
+                      - definition [ref=e264]: Niet van toepassing
+                    - generic [ref=e265]:
+                      - term [ref=e266]: Betaalde diensten vereist
+                      - definition [ref=e267]: Niet van toepassing
+                    - generic [ref=e268]:
+                      - term [ref=e269]: Bluetooth vereist
+                      - definition [ref=e270]: Niet van toepassing
+                    - generic [ref=e271]:
+                      - term [ref=e272]: CE markering
+                      - definition [ref=e273]: Niet van toepassing
+                    - generic [ref=e274]:
+                      - term [ref=e275]:
+                        - text: Compatibel met
+                        - button "Tooltip Compatibel met Soms kun je apparaten met andere apparaten verbinden. Bij de productinformatie tonen we de meest relevante apparaten of ecosystemen waarmee het artikel kan verbinden. We zouden graag een volledige lijst willen opnemen, maar dan wordt het heel lang. En het verandert ook sneller dan wij kunnen typen" [ref=e277]:
+                          - img [ref=e279]
+                      - definition [ref=e281]: Informatie niet beschikbaar
+                    - generic [ref=e282]:
+                      - term [ref=e283]:
+                        - text: Delen van gebruikersgegevens vereist
+                        - button "Tooltip Delen van gebruikersgegevens vereist Sommige Internet-of-Things-apparaten gebruiken gebruikersgegevens en werken met een account. Je geeft toestemming om gebruikersgegevens te delen wanneer je het account aanmaakt. Zonder account zijn de mogelijkheden vaak beperkt." [ref=e285]:
+                          - img [ref=e287]
+                      - definition [ref=e289]: Niet van toepassing
+                    - generic [ref=e290]:
+                      - term [ref=e291]: Doelgroep
+                      - definition [ref=e292]: Alle
+                    - generic [ref=e293]:
+                      - term [ref=e294]: Fan Merchandise
+                      - definition [ref=e295]: Nee
+                    - generic [ref=e296]:
+                      - term [ref=e297]: Geslacht
+                      - definition [ref=e298]: Jongens en meisjes
+                    - generic [ref=e299]:
+                      - term [ref=e300]: Jaar van uitgave
+                      - definition [ref=e301]: "2011"
+                    - generic [ref=e302]:
+                      - term [ref=e303]: Kleur
+                      - definition [ref=e304]: Multikleur
+                    - generic [ref=e305]:
+                      - term [ref=e306]: Kwaliteitslabel
+                      - definition [ref=e307]: CE
+                    - generic [ref=e308]:
+                      - term [ref=e309]: MPN (Manufacturer Part Number)
+                      - definition [ref=e310]: LE-630-3
+                    - generic [ref=e311]:
+                      - term [ref=e312]: Manier van bouwen
+                      - definition [ref=e313]: Klikken
+                    - generic [ref=e314]:
+                      - term [ref=e315]: Materiaal
+                      - definition [ref=e316]: Kunststof
+                    - generic [ref=e317]:
+                      - term [ref=e318]:
+                        - text: Mobiele data verbinding mogelijk
+                        - button "Tooltip Mobiele data verbinding mogelijk Sommige Internet of Things-apparaten werken ook op mobiele data. Als er bijzondere eisen zijn, bijv. 5G, staat dit altijd bij productinformatie." [ref=e320]:
+                          - img [ref=e322]
+                      - definition [ref=e324]: Niet van toepassing
+                    - generic [ref=e325]:
+                      - term [ref=e326]: Personage
+                      - definition [ref=e327]: Geen personage
+                    - generic [ref=e328]:
+                      - term [ref=e329]: Personage van toepassing
+                      - definition [ref=e330]: Ja
+                    - generic [ref=e331]:
+                      - term [ref=e332]: STEM-speelgoed
+                      - definition [ref=e333]: Nee
+                    - generic [ref=e334]:
+                      - term [ref=e335]: Speelgoedthema
+                      - definition [ref=e336]: Bouwplaats
+                    - generic [ref=e337]:
+                      - term [ref=e338]: Taal handleiding
+                      - definition [ref=e339]: Geen taal
+                    - generic [ref=e340]:
+                      - term [ref=e341]: Type constructiespeelgoed
+                      - definition [ref=e342]: Bouwset
+                    - generic [ref=e343]:
+                      - term [ref=e344]: Type merchandise
+                      - definition [ref=e345]: Geen merchandise
+                    - generic [ref=e346]:
+                      - term [ref=e347]: Verpakking breedte
+                      - definition [ref=e348]: 140 mm
+                    - generic [ref=e349]:
+                      - term [ref=e350]: Verpakking hoogte
+                      - definition [ref=e351]: 2 mm
+                    - generic [ref=e352]:
+                      - term [ref=e353]: Verpakking lengte
+                      - definition [ref=e354]: 140 mm
+                    - generic [ref=e355]:
+                      - term [ref=e356]: Verpakkingsgewicht
+                      - definition [ref=e357]: 0.00 kg
+                    - generic [ref=e358]:
+                      - term [ref=e359]: Voedingstype
+                      - definition [ref=e360]: Geen voedingstype
+                    - generic [ref=e361]:
+                      - term [ref=e362]:
+                        - text: Wifi vereist
+                        - button "Tooltip Wifi vereist De meeste Internet of Things-apparaten werken op je thuisnetwerk (wifi). Als er bijzondere eisen voor wifi zijn, staat dit altijd bij productinformatie." [ref=e364]:
+                          - img [ref=e366]
+                      - definition [ref=e368]: Niet van toepassing
+                    - generic [ref=e369]:
+                      - term [ref=e370]: eWaste
+                      - definition [ref=e371]: Nee
+                - generic [ref=e372]:
+                  - heading "EAN" [level=3] [ref=e373]
+                  - generic [ref=e375]:
+                    - term [ref=e376]: EAN
+                    - definition [ref=e377]: "0673419182195"
+                - generic [ref=e378]:
+                  - heading "Productveiligheid" [level=3] [ref=e379]
+                  - generic [ref=e381]:
+                    - term [ref=e382]:
+                      - text: Verantwoordelijk marktdeelnemer in de EU
+                      - button "Tooltip Verantwoordelijk marktdeelnemer in de EU De verantwoordelijk marktdeelnemer in de EU zorgt voor het nakomen van verplichtingen op het gebied van productveiligheid." [ref=e384]:
+                        - img [ref=e385]
+                    - definition [ref=e387]:
+                      - link "Bekijk gegevens" [ref=e388] [cursor=pointer]:
+                        - /url: /nl/nl/verantwoordelijke-marktdeelnemer/lego-630-brick-separator-elementensplitser/9200000040228326/?offerUid=90e8af69-27cf-4f43-b831-d6d2ee4efa21
+                - generic [ref=e389]:
+                  - heading "Je vindt dit artikel in" [level=3] [ref=e390]
+                  - generic [ref=e391]:
+                    - generic [ref=e392]:
+                      - term [ref=e393]: Categorieën
+                      - definition [ref=e394]:
+                        - list [ref=e395]:
+                          - listitem [ref=e396]:
+                            - link "Bouwen & Constructie" [ref=e397] [cursor=pointer]:
+                              - /url: /nl/nl/l/-/10462/
+                            - text: "|"
+                          - listitem [ref=e398]:
+                            - link "Bouwsets" [ref=e399] [cursor=pointer]:
+                              - /url: /nl/nl/l/bouwsets/20001/
+                            - text: "|"
+                          - listitem [ref=e400]:
+                            - link "Speelgoed" [ref=e401] [cursor=pointer]:
+                              - /url: /nl/nl/l/speelgoed/7934/
+                    - generic [ref=e402]:
+                      - term [ref=e403]: Merk
+                      - definition [ref=e404]:
+                        - link "LEGO" [ref=e405] [cursor=pointer]:
+                          - /url: /nl/nl/l/lego-bouwsets/20001/4288914533/
+                    - generic [ref=e406]:
+                      - term [ref=e407]: Leeftijd
+                      - definition [ref=e408]:
+                        - link "9-12 jaar" [ref=e409] [cursor=pointer]:
+                          - /url: /nl/nl/l/bouwsets-voor-9-12-jaar/20001/4268583884/
+                        - text: ","
+                        - link "7-8 jaar" [ref=e410] [cursor=pointer]:
+                          - /url: /nl/nl/l/bouwsets-voor-7-8-jaar/20001/4279522808/
+                        - text: ","
+                        - link "13 jaar en ouder" [ref=e411] [cursor=pointer]:
+                          - /url: /nl/nl/l/bouwsets-voor-13-jaar-en-ouder/20001/4268583885/
+                        - text: ","
+                        - link "5-6 jaar" [ref=e412] [cursor=pointer]:
+                          - /url: /nl/nl/l/bouwsets-voor-5-6-jaar/20001/4279522790/
+                        - text: ","
+                        - link "4 jaar" [ref=e413] [cursor=pointer]:
+                          - /url: /nl/nl/l/bouwsets-voor-4-jaar/20001/4268583886/
+                    - generic [ref=e414]:
+                      - term [ref=e415]: Korting
+                      - definition [ref=e416]:
+                        - link "Vanaf 30%" [ref=e417] [cursor=pointer]:
+                          - /url: /nl/nl/l/bouwsets-vanaf-30/20001/58875/
+                        - text: ","
+                        - link "Vanaf 20%" [ref=e418] [cursor=pointer]:
+                          - /url: /nl/nl/l/bouwsets-vanaf-20/20001/58876/
+                        - text: ","
+                        - link "Vanaf 10%" [ref=e419] [cursor=pointer]:
+                          - /url: /nl/nl/l/bouwsets-vanaf-10/20001/58877/
+                        - text: ","
+                        - link "Vanaf 5%" [ref=e420] [cursor=pointer]:
+                          - /url: /nl/nl/l/bouwsets-vanaf-5/20001/58878/
+                    - generic [ref=e421]:
+                      - term [ref=e422]: Aantal onderdelen
+                      - definition [ref=e423]:
+                        - link "Tot 25 onderdelen" [ref=e424] [cursor=pointer]:
+                          - /url: /nl/nl/l/bouwsets-tot-25-onderdelen/20001/75128/
+                  - heading "Documenten" [level=3] [ref=e425]
+                  - link "Bekijk de CE-markering" [ref=e427] [cursor=pointer]:
+                    - /url: https://media.s-bol.com/m68997WA1z03/original.pdf
+                    - img [ref=e428] [cursor=pointer]
+                    - generic: Bekijk de CE-markering
+              - button [ref=e431] [cursor=pointer]:
+                - img
+                - text: Toon meer
+          - generic [ref=e433]:
+            - generic [ref=e434]:
+              - heading "Reviews" [level=2] [ref=e435]
+              - generic [ref=e437]: Gemiddelde van 2 reviews
+              - generic [ref=e438]: 4,5
+              - img "4,5 uit 5 sterren" [ref=e439]
+              - button "Schrijf een review" [ref=e445] [cursor=pointer]:
+                - generic [ref=e446] [cursor=pointer]: Schrijf een review
+              - img "1 mensen gaven dit product 5 sterren" [ref=e453]: "1"
+              - img "1 mensen gaven dit product 4 sterren" [ref=e460]: "1"
+              - img "0 mensen gaven dit product 3 sterren" [ref=e466]: "0"
+              - img "0 mensen gaven dit product 2 sterren" [ref=e472]: "0"
+              - img "0 mensen gaven dit product 1 sterren" [ref=e478]: "0"
+              - generic [ref=e483] [cursor=pointer]:
+                - img
+                - text: Hoe controleren en plaatsen wij reviews?
+            - generic [ref=e484]:
+              - generic [ref=e485]: "Sorteer op:"
+              - combobox "Sorteer op:" [ref=e487] [cursor=pointer]:
+                - option "Meest behulpzame" [selected]
+                - option "Meeste sterren"
+                - option "Minste sterren"
+                - option "Nieuwste"
+            - list [ref=e488]:
+              - listitem [ref=e489]:
+                - strong [ref=e493]: prima artikel
+                - list [ref=e495]:
+                  - listitem [ref=e496]: Leen259
+                  - listitem [ref=e497]: "| 60-69 jaar"
+                  - listitem [ref=e498]: "| Den haag"
+                  - listitem [ref=e499]: "| 12 juni 2023"
+                  - listitem [ref=e500]: "| Heeft dit artikel gekocht"
+                - generic [ref=e503]:
+                  - paragraph [ref=e504]: Positieve punten
+                  - list [ref=e505]:
+                    - listitem [ref=e506]: makkelijk
+                - paragraph [ref=e508]: handig
+                - generic [ref=e509]:
+                  - generic [ref=e510]: Vond je dit een nuttige review?
+                  - button "👍 0" [disabled]: "0"
+                  - button "👎 0" [disabled]: "0"
+              - listitem [ref=e511]:
+                - strong [ref=e515]: Handig dingetje .
+                - list [ref=e517]:
+                  - listitem [ref=e518]: CoJoMu
+                  - listitem [ref=e519]: "| 70+ jaar"
+                  - listitem [ref=e520]: "| Oegstgeest"
+                  - listitem [ref=e521]: "| 15 oktober 2019"
+                  - listitem [ref=e522]: "| Heeft dit artikel gekocht"
+                - generic [ref=e524]:
+                  - generic [ref=e525]:
+                    - paragraph [ref=e526]: Positieve punten
+                    - list [ref=e527]:
+                      - listitem [ref=e528]: Leuk ontwerp
+                      - listitem [ref=e529]: Goede kwaliteit
+                      - listitem [ref=e530]: dat dingetje was tamelijk goed bruikbaar .
+                  - generic [ref=e531]:
+                    - paragraph [ref=e532]: Negatieve punten
+                    - list [ref=e533]:
+                      - listitem [ref=e534]: dat dingetje was niet echt helemaal wat ik zocht
+                - paragraph [ref=e536]: Handig dingetje .
+                - generic [ref=e537]:
+                  - generic [ref=e538]: Vond je dit een nuttige review?
+                  - button "👍 0" [disabled]: "0"
+                  - button "👎 0" [disabled]: "0"
+        - generic [ref=e539]:
+          - generic [ref=e541]:
+            - generic [ref=e542]:
+              - generic [ref=e543]:
+                - generic [ref=e546]:
+                  - heading "Prijsinformatie en bestellen" [level=2] [ref=e547]
+                  - generic [ref=e548]: De prijs van dit product is 2 euro en 49 cent.
+                  - generic [ref=e549]:
+                    - text: "2"
+                    - superscript [ref=e550]: ", 49"
+                - generic "Of bespaar 25% op de stuksprijs als je er 3 koopt" [ref=e551]: Of bespaar 25% op de stuksprijs
+                - generic [ref=e552]: als je er 3 koopt
+              - generic [ref=e555]:
+                - generic [ref=e556]: Uiterlijk 6 oktober in huis
+                - button "Levertijd We doen er alles aan om dit artikel op tijd te bezorgen. Het is echter in een enkel geval mogelijk dat door omstandigheden de bezorging vertraagd is. Bezorgopties We bieden verschillende opties aan voor het bezorgen of ophalen van je bestelling. Welke opties voor jouw bestelling beschikbaar zijn, zie je bij het afronden van de bestelling." [ref=e558]:
+                  - img [ref=e559]
+              - generic [ref=e561]:
+                - text: Verkoop door
+                - link "SHOPLINK 8,7" [ref=e563] [cursor=pointer]:
+                  - /url: /nl/nl/v/shoplink/1649197/?offerUid=90e8af69-27cf-4f43-b831-d6d2ee4efa21
+                  - generic [ref=e564] [cursor=pointer]: SHOPLINK
+                  - generic [ref=e565] [cursor=pointer]: 8,7
+            - generic [ref=e566]:
+              - generic [ref=e567]: "Kies je aantal:"
+              - generic [ref=e568]:
+                - generic [ref=e569]:
+                  - link "Je bespaart 12% als je er 2 koopt. Totaal is dat 4 euro en 40 cent." [ref=e570] [cursor=pointer]:
+                    - /url: /nl/nl/p/lego-630-brick-separator/9200000040228326/?multiBundleQuantity=2
+                    - generic [ref=e571] [cursor=pointer]: 2 x 2,20
+                    - generic [ref=e572] [cursor=pointer]: 4,40
+                  - strong [ref=e574]: Je bespaart 12%
+                - generic [ref=e575]:
+                  - link "Je bespaart 25% als je er 3 koopt. Totaal is dat 5 euro en 61 cent." [ref=e576] [cursor=pointer]:
+                    - /url: /nl/nl/p/lego-630-brick-separator/9200000040228326/?multiBundleQuantity=3
+                    - generic [ref=e577] [cursor=pointer]: 3 x 1,87
+                    - generic [ref=e578] [cursor=pointer]: 5,61
+                  - strong [ref=e580]: Je bespaart 25%
+            - generic [ref=e582]:
+              - button "In winkelwagen" [ref=e584] [cursor=pointer]:
+                - img
+                - text: In winkelwagen
+              - button "Klik hier om het product toe te voegen aan je verlanglijstje" [ref=e586] [cursor=pointer]:
+                - img
+            - generic [ref=e587]:
+              - list [ref=e588]:
+                - listitem [ref=e589]: Bestellen en betalen via bol
+                - listitem [ref=e590]:
+                  - emphasis [ref=e591]:
+                    - strong [ref=e592]: Inclusief
+                  - text: verzendkosten, verstuurd door SHOPLINK
+                - listitem [ref=e593]:
+                  - text: 30 dagen bedenktijd en
+                  - emphasis [ref=e594]:
+                    - strong [ref=e595]: gratis
+                  - text: retourneren
+                - listitem [ref=e596]: Wettelijke garantie via SHOPLINK
+              - paragraph [ref=e597]:
+                - text: Bekijk de extra
+                - link "voorwaarden" [ref=e598] [cursor=pointer]:
+                  - /url: /nl/nl/v/shoplink/1649197/?offerUid=90e8af69-27cf-4f43-b831-d6d2ee4efa21
+                - text: van deze partner.
+            - generic [ref=e599]:
+              - generic [ref=e600]: Shop dit artikel
+              - list [ref=e603]:
+                - listitem [ref=e604]:
+                  - link "Sneller in huis Uiterlijk 2 oktober in huis" [ref=e605] [cursor=pointer]:
+                    - /url: /nl/nl/prijsoverzicht/lego-630-brick-separator/9200000040228326/?filter=new&sort=deliverytime&sortOrder=asc
+                    - generic [ref=e606] [cursor=pointer]:
+                      - generic [ref=e607] [cursor=pointer]:
+                        - generic [ref=e608] [cursor=pointer]: Sneller in huis
+                        - generic [ref=e609] [cursor=pointer]: Uiterlijk 2 oktober in huis
+                      - img [ref=e612] [cursor=pointer]
+                - listitem [ref=e614]:
+                  - link "Bij 3 partners verkrijgbaar" [ref=e615] [cursor=pointer]:
+                    - /url: /nl/nl/prijsoverzicht/lego-630-brick-separator/9200000040228326/?filter=all&sort=price&sortOrder=asc
+                    - generic [ref=e616] [cursor=pointer]:
+                      - generic [ref=e617] [cursor=pointer]:
+                        - generic [ref=e618] [cursor=pointer]: Bij 3 partners
+                        - generic [ref=e619] [cursor=pointer]: verkrijgbaar
+                      - img [ref=e622] [cursor=pointer]
+          - generic [ref=e624]:
+            - heading "Bekijk ook eens" [level=2] [ref=e625]
+            - list [ref=e626]:
+              - listitem [ref=e627]:
+                - generic [ref=e629]:
+                  - link [ref=e631] [cursor=pointer]:
+                    - /url: /nl/nl/p/set-van-4-bouwplaten-grondplaten-32x32-noppen-25cm-x-25cm-keuze-uit-15-kleuren-groen-geschikt-voor-lego-smallbricks/9300000131828309/
+                    - img [ref=e634] [cursor=pointer]
+                  - generic [ref=e636]:
+                    - link "Set van 4 bouwplaten / grondplaten 32x32 noppen, 25cm x 25cm | Keuze uit 15 kleuren | Groen | Geschikt voor LEGO | SmallBricks" [ref=e637] [cursor=pointer]:
+                      - /url: /nl/nl/p/set-van-4-bouwplaten-grondplaten-32x32-noppen-25cm-x-25cm-keuze-uit-15-kleuren-groen-geschikt-voor-lego-smallbricks/9300000131828309/
+                      - generic [ref=e638] [cursor=pointer]: Set van 4 bouwplaten / grondplaten 32x32 noppen, 25cm x 25cm | Keuze uit 15 kleuren | Groen | Geschikt voor LEGO | SmallBricks
+                    - generic [ref=e640]: (4)
+                    - generic [ref=e643]:
+                      - generic [ref=e644]: €
+                      - text: 19,95
+                  - button "Gesponsord meer informatie" [ref=e646] [cursor=pointer]:
+                    - generic [ref=e647] [cursor=pointer]: Gesponsord
+                    - img [ref=e648] [cursor=pointer]
+              - listitem [ref=e650]:
+                - generic [ref=e652]:
+                  - link [ref=e654] [cursor=pointer]:
+                    - /url: /nl/nl/p/dobble-classic-kaartspel/1004004011600544/
+                    - img [ref=e657] [cursor=pointer]
+                  - generic [ref=e659]:
+                    - link "Dobble Classic - Kaartspel" [ref=e660] [cursor=pointer]:
+                      - /url: /nl/nl/p/dobble-classic-kaartspel/1004004011600544/
+                      - generic [ref=e661] [cursor=pointer]: Dobble Classic - Kaartspel
+                    - generic [ref=e663]: (531)
+                    - generic [ref=e666]:
+                      - generic [ref=e667]: €
+                      - text: 11,99
+                  - button "Gesponsord meer informatie" [ref=e669] [cursor=pointer]:
+                    - generic [ref=e670] [cursor=pointer]: Gesponsord
+                    - img [ref=e671] [cursor=pointer]
+              - listitem [ref=e673]:
+                - generic [ref=e675]:
+                  - link [ref=e677] [cursor=pointer]:
+                    - /url: /nl/nl/p/plus-plus-inspired-edvard-munch-the-scream-4333-bouwspeelgoed-kunstwerk-constructiespeelgoed-set-met-350-bouwstenen-vanaf-7-jaar/9300000232449912/
+                    - img [ref=e680] [cursor=pointer]
+                  - generic [ref=e682]:
+                    - link "Plus-Plus Inspired - Edvard Munch - The Scream - 4333 - Bouwspeelgoed kunstwerk - Constructiespeelgoed - Set met 350 bouwstenen - Vanaf 7 jaar" [ref=e683] [cursor=pointer]:
+                      - /url: /nl/nl/p/plus-plus-inspired-edvard-munch-the-scream-4333-bouwspeelgoed-kunstwerk-constructiespeelgoed-set-met-350-bouwstenen-vanaf-7-jaar/9300000232449912/
+                      - generic [ref=e684] [cursor=pointer]: Plus-Plus Inspired - Edvard Munch - The Scream - 4333 - Bouwspeelgoed kunstwerk - Constructiespeelgoed - Set met 350 bouwstenen - Vanaf 7 jaar
+                    - generic [ref=e688]:
+                      - generic [ref=e689]: €
+                      - text: 19,99
+                  - button "Gesponsord meer informatie" [ref=e691] [cursor=pointer]:
+                    - generic [ref=e692] [cursor=pointer]: Gesponsord
+                    - img [ref=e693] [cursor=pointer]
+              - listitem [ref=e695]:
+                - generic [ref=e697]:
+                  - link [ref=e699] [cursor=pointer]:
+                    - /url: /nl/nl/p/sluitstickers-hartjes-goud-voordeelset-55-stuks-sluitzegels-hartjes-inpakken-kado-huwelijk-gifst-bestelling-bedankt-geboorte/9300000139337631/
+                    - img [ref=e702] [cursor=pointer]
+                  - generic [ref=e704]:
+                    - link "Sluitstickers Hartjes Goud Voordeelset 55 stuks - Sluitzegels hartjes - inpakken - kado - huwelijk - gifst - bestelling - bedankt - Geboorte -" [ref=e705] [cursor=pointer]:
+                      - /url: /nl/nl/p/sluitstickers-hartjes-goud-voordeelset-55-stuks-sluitzegels-hartjes-inpakken-kado-huwelijk-gifst-bestelling-bedankt-geboorte/9300000139337631/
+                      - generic [ref=e706] [cursor=pointer]: Sluitstickers Hartjes Goud Voordeelset 55 stuks - Sluitzegels hartjes - inpakken - kado - huwelijk - gifst - bestelling - bedankt - Geboorte -
+                    - generic [ref=e708]: (175)
+                    - generic [ref=e711]:
+                      - generic [ref=e712]: €
+                      - text: 2,99
+                  - button "Gesponsord meer informatie" [ref=e714] [cursor=pointer]:
+                    - generic [ref=e715] [cursor=pointer]: Gesponsord
+                    - img [ref=e716] [cursor=pointer]
+              - listitem [ref=e718]:
+                - generic [ref=e720]:
+                  - link [ref=e722] [cursor=pointer]:
+                    - /url: /nl/nl/p/ravensburger-super-mario-barricade/9200000111976146/
+                    - img [ref=e725] [cursor=pointer]
+                  - generic [ref=e727]:
+                    - link "Ravensburger Super Mario Barricade" [ref=e728] [cursor=pointer]:
+                      - /url: /nl/nl/p/ravensburger-super-mario-barricade/9200000111976146/
+                      - generic [ref=e729] [cursor=pointer]: Ravensburger Super Mario Barricade
+                    - generic [ref=e731]: (4)
+                    - generic [ref=e734]:
+                      - generic [ref=e735]: €
+                      - text: 9,99
+                  - button "Gesponsord meer informatie" [ref=e737] [cursor=pointer]:
+                    - generic [ref=e738] [cursor=pointer]: Gesponsord
+                    - img [ref=e739] [cursor=pointer]
+              - listitem [ref=e741]:
+                - generic [ref=e743]:
+                  - link [ref=e745] [cursor=pointer]:
+                    - /url: /nl/nl/p/magnetic-tiles-magnetisch-speelgoed-magnetische-tegels-montessori-speelgoed-42-stuks-magnetische-bouwstenen-magnetische-bouwblokken-bouw-je-magna-wereld-kinderen-olvy/9300000189083110/
+                    - img [ref=e748] [cursor=pointer]
+                  - generic [ref=e750]:
+                    - link "Magnetic Tiles - Speelgoed - Magnetische Tegels - Educatief & Constructie - Auto - Montessori - 42 Stuks - Bouwstenen - Blokken - Voor 3, 4, 5, 6, 7, 8, 9 Jaar - Bouw je Magna Wereld - Kinderen - Olvy" [ref=e751] [cursor=pointer]:
+                      - /url: /nl/nl/p/magnetic-tiles-magnetisch-speelgoed-magnetische-tegels-montessori-speelgoed-42-stuks-magnetische-bouwstenen-magnetische-bouwblokken-bouw-je-magna-wereld-kinderen-olvy/9300000189083110/
+                      - generic [ref=e752] [cursor=pointer]: Magnetic Tiles - Speelgoed - Magnetische Tegels - Educatief & Constructie - Auto - Montessori - 42 Stuks - Bouwstenen - Blokken - Voor 3, 4, 5, 6, 7, 8, 9 Jaar - Bouw je Magna Wereld - Kinderen - Olvy
+                    - generic [ref=e754]: (152)
+                    - generic [ref=e757]:
+                      - generic [ref=e758]: €
+                      - text: 19,99
+                  - button "Gesponsord meer informatie" [ref=e760] [cursor=pointer]:
+                    - generic [ref=e761] [cursor=pointer]: Gesponsord
+                    - img [ref=e762] [cursor=pointer]
+          - button "Rapporteer dit artikel" [ref=e767] [cursor=pointer]:
+            - img [ref=e768] [cursor=pointer]
+            - generic: Rapporteer dit artikel
+  - contentinfo [ref=e781]:
+    - generic [ref=e783]:
+      - generic [ref=e784]: Service & contact
+      - generic [ref=e785]:
+        - figure [ref=e786]:
+          - img [ref=e787]
+        - generic [ref=e789]:
+          - paragraph [ref=e790]:
+            - strong [ref=e791]: Snel regelen in je account
+          - paragraph [ref=e792]:
+            - link "Volg je bestelling" [ref=e793] [cursor=pointer]:
+              - /url: /nl/rnwy/account/bestellingen/overzicht
+            - text: ","
+            - link "betaal facturen" [ref=e794] [cursor=pointer]:
+              - /url: /nl/rnwy/account/facturen
+            - text: of
+            - link "retourneer een artikel" [ref=e795] [cursor=pointer]:
+              - /url: /nl/account/retourneren/overzicht
+            - text: .
+      - generic [ref=e796]:
+        - figure [ref=e797]:
+          - img [ref=e798]
+        - generic [ref=e800]:
+          - paragraph [ref=e801]:
+            - strong [ref=e802]: Heb je ons nodig?
+          - paragraph [ref=e803]:
+            - text: We helpen je graag.
+            - link "Onze klantenservice" [ref=e804] [cursor=pointer]:
+              - /url: /nl/nl/m/klantenservice/
+            - text: is dag en nacht open.
+    - generic [ref=e805]:
+      - list [ref=e806]:
+        - listitem [ref=e807]:
+          - heading "Klantenservice" [level=3] [ref=e808]:
+            - link "Klantenservice" [ref=e809] [cursor=pointer]:
+              - /url: /nl/nl/m/klantenservice/
+          - list [ref=e810]:
+            - listitem [ref=e811]:
+              - link "Contact opnemen" [ref=e812] [cursor=pointer]:
+                - /url: /nl/nl/m/klantenservice/
+            - listitem [ref=e813]:
+              - link "Bestellen & Leveren" [ref=e814] [cursor=pointer]:
+                - /url: /nl/nl/klantenservice/sb/5657512099446784/bestellen
+            - listitem [ref=e815]:
+              - link "Betalen" [ref=e816] [cursor=pointer]:
+                - /url: /nl/nl/klantenservice/sb/5690774674997248/betalen
+            - listitem [ref=e817]:
+              - link "Retourneren" [ref=e818] [cursor=pointer]:
+                - /url: /nl/nl/klantenservice/sb/5644784165191680/retourneren-annuleren
+            - listitem [ref=e819]:
+              - link "Garantie & Reparatie" [ref=e820] [cursor=pointer]:
+                - /url: /nl/nl/klantenservice/sb/5767040140836864/garantie-reparatie
+            - listitem [ref=e821]:
+              - link "Terugroepacties" [ref=e822] [cursor=pointer]:
+                - /url: /nl/nl/klantenservice/a/5636762709786624/garantie-reparatie
+        - listitem [ref=e823]:
+          - heading "Over bol" [level=3] [ref=e824]:
+            - link "Over bol" [ref=e825] [cursor=pointer]:
+              - /url: //pers.bol.com/nl/het-verhaal/
+          - list [ref=e826]:
+            - listitem [ref=e827]:
+              - link "De voordelen van bol" [ref=e828] [cursor=pointer]:
+                - /url: /nl/nl/sf/winkelen-zonder-zorgen/
+            - listitem [ref=e829]:
+              - link "Nieuws" [ref=e830] [cursor=pointer]:
+                - /url: //pers.bol.com/
+            - listitem [ref=e831]:
+              - link "De bol app" [ref=e832] [cursor=pointer]:
+                - /url: /nl/nl/sf/mobiele-app/
+            - listitem [ref=e833]:
+              - link "Werken bij bol" [ref=e834] [cursor=pointer]:
+                - /url: //banen.bol.com/
+            - listitem [ref=e835]:
+              - link "Bol & duurzaamheid" [ref=e836] [cursor=pointer]:
+                - /url: /nl/nl/sf/duurzaamheid/
+            - listitem [ref=e837]:
+              - link "Bollebozen" [ref=e838] [cursor=pointer]:
+                - /url: /nl/nl/sf/bollebozen/
+            - listitem [ref=e839]:
+              - link "Toegankelijkheidsverklaring" [ref=e840] [cursor=pointer]:
+                - /url: /nl/nl/tc/toegankelijkheidsverklaring/
+            - listitem [ref=e841]:
+              - link "Bedrijfsgegevens" [ref=e842] [cursor=pointer]:
+                - /url: /nl/nl/klantenservice/a/5715110588841984/bedrijfsgegevens
+        - listitem [ref=e843]:
+          - link "Zakendoen met bol" [ref=e844] [cursor=pointer]:
+            - /url: /nl/nl/sf/zakendoen-met-bolcom/
+          - list [ref=e845]:
+            - listitem [ref=e846]:
+              - link "Zakelijk verkopen" [ref=e847] [cursor=pointer]:
+                - /url: //partnerplatform.bol.com/
+            - listitem [ref=e848]:
+              - link "Zakelijk bestellen" [ref=e849] [cursor=pointer]:
+                - /url: /nl/nl/sf/zakelijk-bestellen/
+            - listitem [ref=e850]:
+              - link "Zakelijke cadeaukaarten" [ref=e851] [cursor=pointer]:
+                - /url: //cadeaukaart.bol.com/
+            - listitem [ref=e852]:
+              - link "Adverteren" [ref=e853] [cursor=pointer]:
+                - /url: //adverteren.bol.com/
+            - listitem [ref=e854]:
+              - link "Affiliate Marketing" [ref=e855] [cursor=pointer]:
+                - /url: //affiliate.bol.com/nl/
+        - listitem [ref=e856]:
+          - paragraph [ref=e857]:
+            - strong [ref=e858]: Wil je ons volgen?
+          - generic [ref=e859]:
+            - link "Volg ons op de facebook pagina van bol" [ref=e860] [cursor=pointer]:
+              - /url: //www.facebook.com/bolpuntcom
+              - generic [ref=e861] [cursor=pointer]: Volg ons op de facebook pagina van bol
+              - img [ref=e862] [cursor=pointer]
+            - link "Volg ons op de pinterest pagina van bol" [ref=e864] [cursor=pointer]:
+              - /url: //www.pinterest.com/bol
+              - generic [ref=e865] [cursor=pointer]: Volg ons op de pinterest pagina van bol
+              - img [ref=e866] [cursor=pointer]
+            - link "Volg ons op de instagram pagina van bol" [ref=e868] [cursor=pointer]:
+              - /url: //www.instagram.com/bol
+              - generic [ref=e869] [cursor=pointer]: Volg ons op de instagram pagina van bol
+              - img [ref=e870] [cursor=pointer]
+            - link "Volg ons op de youtube pagina van bol" [ref=e872] [cursor=pointer]:
+              - /url: //www.youtube.com/user/bolcom
+              - generic [ref=e873] [cursor=pointer]: Volg ons op de youtube pagina van bol
+              - img [ref=e874] [cursor=pointer]
+            - link "Volg ons op de linkedin pagina van bol" [ref=e876] [cursor=pointer]:
+              - /url: //www.linkedin.com/company/11699
+              - generic [ref=e877] [cursor=pointer]: Volg ons op de linkedin pagina van bol
+              - img [ref=e878] [cursor=pointer]
+            - link "Volg ons op de TikTok pagina van bol" [ref=e880] [cursor=pointer]:
+              - /url: //www.tiktok.com/@bol
+              - generic [ref=e881] [cursor=pointer]: Volg ons op de TikTok pagina van bol
+              - img [ref=e882] [cursor=pointer]
+          - generic [ref=e884]:
+            - link "Meld je aan" [ref=e885] [cursor=pointer]:
+              - /url: /nl/rnwy/account/newsletters
+            - text: voor korting en inspiratie in je mailbox
+      - generic [ref=e886]:
+        - paragraph [ref=e887]:
+          - img [ref=e888]
+          - generic [ref=e890]: bol de winkel van ons allemaal
+        - generic [ref=e891]:
+          - list [ref=e892]:
+            - listitem [ref=e893]:
+              - link "Certificaat Thuiswinkel Waarborg" [ref=e894] [cursor=pointer]:
+                - /url: //www.thuiswinkel.org/leden/bol.com/certificaat
+                - generic [ref=e895] [cursor=pointer]: Certificaat Thuiswinkel Waarborg
+                - img [ref=e896] [cursor=pointer]
+              - text: Geldt voor aankopen bij
+              - link "Thuiswinkel-leden" [ref=e901] [cursor=pointer]:
+                - /url: /nl/nl/sf/thuiswinkel-waarborg/
+            - listitem [ref=e902]:
+              - text: "|"
+              - link "Algemene voorwaarden" [ref=e903] [cursor=pointer]:
+                - /url: /nl/nl/tc/
+            - listitem [ref=e904]:
+              - text: "|"
+              - link "Privacy" [ref=e905] [cursor=pointer]:
+                - /url: /nl/nl/tc/privacybeleid/
+            - listitem [ref=e906]:
+              - text: "|"
+              - link "Cookies" [ref=e907] [cursor=pointer]:
+                - /url: /nl/nl/tc/cookiebeleid/
+            - listitem [ref=e908]:
+              - text: "|"
+              - link "©" [ref=e909] [cursor=pointer]:
+                - /url: /nl/nl/m/copyright/
+              - text: 1999-2025 bol.com b.v.
+          - paragraph [ref=e910]:
+            - text: "* De voordelen van bol.com gelden niet voor het gehele assortiment."
+            - link "Bekijk de voorwaarden" [ref=e911] [cursor=pointer]:
+              - /url: /nl/nl/sf/winkelen-zonder-zorgen/
+            - text: Alle prijzen zijn inclusief BTW en andere heffingen en exclusief eventuele
+            - link "verzenden en servicekosten" [ref=e912] [cursor=pointer]:
+              - /url: /nl/nl/klantenservice/a/5711226101301248/bezorgopties-en-kosten
+```

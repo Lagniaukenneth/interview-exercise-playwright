@@ -25,7 +25,7 @@ test.describe("Assesment", () => {
   });
 
   test.afterAll(async () => {
-    await page.close();
+    // await page.close();
   });
 
   test("Navigate to the homepage of bol.com", async () => {
@@ -123,7 +123,7 @@ test.describe("Assesment", () => {
     });
 
     test.afterAll(async () => {
-      await page.close();
+      // await page.close();
     });
 
     test("Navigate to the homepage of bol.com", async () => {
