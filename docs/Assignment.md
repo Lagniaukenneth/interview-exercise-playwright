@@ -96,26 +96,26 @@ Duid hieronder aan wat je hebt afgerond:
 
 ### Structuur & Setup
 
-- [ ] Fork deze repository
-- [ ] Project opgezet en Playwright geïnstalleerd
-- [ ] Page Object Model toegepast
-- [ ] Helpers / utilities toegevoegd waar nodig
-- [ ] Duidelijke projectstructuur gebruikt
+- [X] Fork deze repository
+- [X] Project opgezet en Playwright geïnstalleerd
+- [X] Page Object Model toegepast
+- [X] Helpers / utilities toegevoegd waar nodig
+- [X] Duidelijke projectstructuur gebruikt
 
 ### Scenario’s
 
-- [ ] Homepage & zoekfunctie geautomatiseerd
-- [ ] Filteren & sorteren geautomatiseerd
-- [ ] Productdetailpagina (PDP) geautomatiseerd
-- [ ] Paginering geautomatiseerd
+- [X] Homepage & zoekfunctie geautomatiseerd
+- [X] Filteren & sorteren geautomatiseerd
+- [X] Productdetailpagina (PDP) geautomatiseerd
+- [X] Paginering geautomatiseerd
 
 ### Best Practices
 
-- [ ] Robuuste selectors gebruikt
-- [ ] `expect` assertions toegepast
-- [ ] Screenshots toegevoegd
-- [ ] HTML-rapportage aanwezig
-- [ ] Stabiele tests (bv. geen `page.waitForTimeout(1_000)`)
+- [X] Robuuste selectors gebruikt
+- [X] `expect` assertions toegepast
+- [X] Screenshots toegevoegd
+- [X] HTML-rapportage aanwezig
+- [X] Stabiele tests (bv. geen `page.waitForTimeout(1_000)`)
 
 ### Documentatie
 
@@ -124,7 +124,7 @@ Duid hieronder aan wat je hebt afgerond:
 
 ### CI/CD
 
-- [ ] Pipeline ingesteld (GitHub Actions / GitLab CI / Bitbucket Pipelines)
+- [X] Pipeline ingesteld (GitHub Actions / GitLab CI / Bitbucket Pipelines)
 - [ ] Tests draaien automatisch in CI
 - [ ] HTML-rapport en screenshots worden als artifact gepubliceerd
 
