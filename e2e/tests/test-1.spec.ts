@@ -4,6 +4,7 @@ import { FilterSortPage } from "../helpers/filtersorte.page";
 import { PdpPage } from "../pages/productdetailpage.page";
 import { InterceptorPage } from "../helpers/interceptor.page";
 import { ProductListPage } from "../pages/productlist.page";
+import { WaitForResponsePage } from "../helpers/waitforresponse.page";
 
 let page: Page;
 let bolPage: BolPage;
@@ -11,6 +12,7 @@ let filterSortPage: FilterSortPage;
 let pdpPage: PdpPage;
 let interceptor: InterceptorPage;
 let productlistPage: ProductListPage;
+let waitForResponsePage: WaitForResponsePage;
 
 test.describe("Assesment", () => {
   test.beforeAll(async ({ browser }) => {
@@ -21,6 +23,7 @@ test.describe("Assesment", () => {
     pdpPage = new PdpPage(page);
     interceptor = new InterceptorPage(page);
     productlistPage = new ProductListPage(page);
+    waitForResponsePage = new WaitForResponsePage(page);
     await page.goto("https://www.bol.com");
   });
 
@@ -55,7 +58,7 @@ test.describe("Assesment", () => {
   test("Extract all product prices and verify they are sorted from low to high", async () => {
     await filterSortPage.sortDropdownMenu();
     await filterSortPage.sortByPriceLowToHigh();
-    await page.waitForTimeout(3000);
+    await waitForResponsePage.waitForBatchResponse();
 
     const prices = await filterSortPage.getAllProductPrices();
     const sortedPricesAsc = [...prices].sort((a, b) => a - b);
@@ -153,7 +156,8 @@ test.describe("Assesment", () => {
       await page.screenshot({ path: "resultpage1.png" });
       await productlistPage.navigateToPage2();
 
-      await page.waitForTimeout(3000);
+      await waitForResponsePage.waitForBatchResponse();
+      
       await page.screenshot({ path: "resultpage2.png" });
 
       const titlesPage2 = await productlistPage.getAllTitles();
